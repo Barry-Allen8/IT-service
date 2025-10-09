@@ -1,0 +1,258 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Контакти - Taranik's Bubbles</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навігація -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">🎈</span>
+                    <span class="logo-text">Taranik's Bubbles</span>
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="catalog.html">Каталог</a></li>
+                    <li><a href="about.html">Про нас</a></li>
+                    <li><a href="contact.html" class="active">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Заголовок сторінки -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Контакти</h1>
+            <p>Зв'яжіться з нами зручним для вас способом</p>
+        </div>
+    </section>
+
+    <!-- Контактна інформація -->
+    <section class="contact-info">
+        <div class="container">
+            <div class="contact-grid">
+                <div class="contact-card">
+                    <div class="contact-icon">📞</div>
+                    <h3>Телефон</h3>
+                    <p>+380 XX XXX XX XX</p>
+                    <p class="contact-description">Пн-Нд: 9:00 - 21:00</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">✉️</div>
+                    <h3>Email</h3>
+                    <p>info@taranik.ua</p>
+                    <p class="contact-description">Відповідаємо протягом 2 годин</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">📍</div>
+                    <h3>Адреса</h3>
+                    <p>м. Київ</p>
+                    <p class="contact-description">вул. Святкова, 1</p>
+                </div>
+                <div class="contact-card">
+                    <div class="contact-icon">💬</div>
+                    <h3>Месенджери</h3>
+                    <p>Telegram, Viber, WhatsApp</p>
+                    <p class="contact-description">Швидкий зв'язок 24/7</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Форма зворотного зв'язку -->
+    <section class="contact-form-section">
+        <div class="container">
+            <div class="form-wrapper">
+                <div class="form-header">
+                    <h2>Надішліть нам повідомлення</h2>
+                    <p>Заповніть форму і ми зв'яжемося з вами найближчим часом</p>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Ваше ім'я *</label>
+                            <input type="text" id="name" name="name" required placeholder="Введіть ваше ім'я">
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Телефон *</label>
+                            <input type="tel" id="phone" name="phone" required placeholder="+380">
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="email">Email</label>
+                        <input type="email" id="email" name="email" placeholder="your@email.com">
+                    </div>
+                    <div class="form-group">
+                        <label for="event-type">Тип заходу</label>
+                        <select id="event-type" name="event-type">
+                            <option value="">Оберіть тип заходу</option>
+                            <option value="birthday">День народження</option>
+                            <option value="wedding">Весілля</option>
+                            <option value="corporate">Корпоратив</option>
+                            <option value="kids">Дитяче свято</option>
+                            <option value="other">Інше</option>
+                        </select>
+                    </div>
+                    <div class="form-group">
+                        <label for="date">Бажана дата</label>
+                        <input type="date" id="date" name="date">
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Ваше повідомлення *</label>
+                        <textarea id="message" name="message" rows="5" required placeholder="Розкажіть про ваше замовлення..."></textarea>
+                    </div>
+                    <div class="form-group">
+                        <label class="checkbox-label">
+                            <input type="checkbox" name="consent" required>
+                            <span>Я погоджуюсь з обробкою персональних даних</span>
+                        </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large">Відправити заявку</button>
+                </form>
+                <div class="form-success" id="formSuccess" style="display: none;">
+                    <div class="success-icon">✅</div>
+                    <h3>Дякуємо за заявку!</h3>
+                    <p>Ми зв'яжемося з вами найближчим часом</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Карта -->
+    <section class="map-section">
+        <div class="container">
+            <h2 class="section-title">Як нас знайти</h2>
+            <div class="map-placeholder">
+                <div class="map-content">
+                    <p>📍 м. Київ, вул. Святкова, 1</p>
+                    <p>Тут буде інтерактивна карта Google Maps</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Години роботи -->
+    <section class="working-hours">
+        <div class="container">
+            <h2 class="section-title">Години Роботи</h2>
+            <div class="hours-grid">
+                <div class="hours-item">
+                    <span class="day">Понеділок - П'ятниця</span>
+                    <span class="time">9:00 - 21:00</span>
+                </div>
+                <div class="hours-item">
+                    <span class="day">Субота - Неділя</span>
+                    <span class="time">10:00 - 20:00</span>
+                </div>
+                <div class="hours-item highlight">
+                    <span class="day">Доставка</span>
+                    <span class="time">Без вихідних</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ -->
+    <section class="faq">
+        <div class="container">
+            <h2 class="section-title">Часті Питання</h2>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Як швидко ви доставляєте замовлення?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Ми доставляємо замовлення по Києву протягом 2-4 годин після оформлення. Для терміново доставки зв'яжіться з нами по телефону.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Чи можна оплатити онлайн?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Так, ми приймаємо оплату картою онлайн, а також готівкою або карткою при отриманні.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Скільки тримаються повітряні кульки?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Латексні кульки з гелієм тримаються 8-12 годин, фольговані - до 2 тижнів. Кульки з повітрям можуть тримати форму кілька тижнів.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <div class="faq-question">
+                        <h3>Чи робите ви оформлення на виїзд?</h3>
+                        <span class="faq-toggle">+</span>
+                    </div>
+                    <div class="faq-answer">
+                        <p>Так, наша команда виїжджає для оформлення залів, ресторанів, офісів та інших приміщень. Вартість розраховується індивідуально.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Taranik's Bubbles</h4>
+                    <p>Ваш надійний партнер у створенні святкової атмосфери</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Навігація</h4>
+                    <ul>
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="about.html">Про нас</a></li>
+                        <li><a href="contact.html">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакти</h4>
+                    <ul>
+                        <li>📞 +380 XX XXX XX XX</li>
+                        <li>✉️ info@taranik.ua</li>
+                        <li>📍 м. Київ, вул. Святкова, 1</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Слідкуйте за нами</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Telegram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Taranik's Bubbles. Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+

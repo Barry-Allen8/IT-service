@@ -1,0 +1,292 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Каталог - Taranik's Bubbles</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Навігація -->
+    <nav class="navbar">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="index.html" class="logo">
+                    <span class="logo-icon">🎈</span>
+                    <span class="logo-text">Taranik's Bubbles</span>
+                </a>
+                <button class="mobile-menu-toggle" id="mobileMenuToggle">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+                <ul class="nav-menu" id="navMenu">
+                    <li><a href="index.html">Головна</a></li>
+                    <li><a href="catalog.html" class="active">Каталог</a></li>
+                    <li><a href="about.html">Про нас</a></li>
+                    <li><a href="contact.html">Контакти</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Заголовок сторінки -->
+    <section class="page-header">
+        <div class="container">
+            <h1>Каталог Повітряних Кульок</h1>
+            <p>Виберіть ідеальні кульки для вашого свята</p>
+        </div>
+    </section>
+
+    <!-- Фільтри -->
+    <section class="filters">
+        <div class="container">
+            <div class="filter-bar">
+                <button class="filter-btn active" data-filter="all">Всі товари</button>
+                <button class="filter-btn" data-filter="latex">Латексні</button>
+                <button class="filter-btn" data-filter="foil">Фольговані</button>
+                <button class="filter-btn" data-filter="set">Набори</button>
+                <button class="filter-btn" data-filter="numbers">Цифри</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Каталог продуктів -->
+    <section class="catalog">
+        <div class="container">
+            <div class="products-grid">
+                <!-- Продукт 1 -->
+                <div class="product-card" data-category="latex">
+                    <div class="product-badge">Топ продажів</div>
+                    <div class="product-image">
+                        <div class="product-emoji">🎈</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Латексні кульки "Класик"</h3>
+                        <p class="product-description">Набір з 25 латексних кульок різних кольорів</p>
+                        <div class="product-footer">
+                            <span class="product-price">250 грн</span>
+                            <button class="btn btn-small btn-primary">Замовити</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Продукт 2 -->
+                <div class="product-card" data-category="foil">
+                    <div class="product-image">
+                        <div class="product-emoji">✨</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Фольгована зірка "Золото"</h3>
+                        <p class="product-description">Велика золота зірка 45 см</p>
+                        <div class="product-footer">
+                            <span class="product-price">150 грн</span>
+                            <button class="btn btn-small btn-primary">Замовити</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Продукт 3 -->
+                <div class="product-card" data-category="numbers">
+                    <div class="product-badge">Новинка</div>
+                    <div class="product-image">
+                        <div class="product-emoji">1️⃣</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Цифра фольгована</h3>
+                        <p class="product-description">Велика цифра 75 см (будь-яке число)</p>
+                        <div class="product-footer">
+                            <span class="product-price">180 грн</span>
+                            <button class="btn btn-small btn-primary">Замовити</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Продукт 4 -->
+                <div class="product-card" data-category="set">
+                    <div class="product-image">
+                        <div class="product-emoji">🎉</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Набір "День Народження"</h3>
+                        <p class="product-description">Готовий набір з 50 кульок + гірлянда</p>
+                        <div class="product-footer">
+                            <span class="product-price">450 грн</span>
+                            <button class="btn btn-small btn-primary">Замовити</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Продукт 5 -->
+                <div class="product-card" data-category="latex">
+                    <div class="product-image">
+                        <div class="product-emoji">🎨</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Кульки "Райдуга"</h3>
+                        <p class="product-description">30 кульок веселкових кольорів</p>
+                        <div class="product-footer">
+                            <span class="product-price">280 грн</span>
+                            <button class="btn btn-small btn-primary">Замовити</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Продукт 6 -->
+                <div class="product-card" data-category="foil">
+                    <div class="product-badge">Топ продажів</div>
+                    <div class="product-image">
+                        <div class="product-emoji">❤️</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Серце "Червоне"</h3>
+                        <p class="product-description">Фольговане серце 60 см</p>
+                        <div class="product-footer">
+                            <span class="product-price">170 грн</span>
+                            <button class="btn btn-small btn-primary">Замовити</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Продукт 7 -->
+                <div class="product-card" data-category="set">
+                    <div class="product-image">
+                        <div class="product-emoji">💍</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Набір "Весілля"</h3>
+                        <p class="product-description">Елегантна композиція з білих і золотих кульок</p>
+                        <div class="product-footer">
+                            <span class="product-price">650 грн</span>
+                            <button class="btn btn-small btn-primary">Замовити</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Продукт 8 -->
+                <div class="product-card" data-category="latex">
+                    <div class="product-image">
+                        <div class="product-emoji">🌸</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Кульки "Пастель"</h3>
+                        <p class="product-description">20 кульок ніжних пастельних відтінків</p>
+                        <div class="product-footer">
+                            <span class="product-price">220 грн</span>
+                            <button class="btn btn-small btn-primary">Замовити</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Продукт 9 -->
+                <div class="product-card" data-category="foil">
+                    <div class="product-image">
+                        <div class="product-emoji">👑</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Корона "Принцеса"</h3>
+                        <p class="product-description">Фольгована корона рожева</p>
+                        <div class="product-footer">
+                            <span class="product-price">140 грн</span>
+                            <button class="btn btn-small btn-primary">Замовити</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Продукт 10 -->
+                <div class="product-card" data-category="set">
+                    <div class="product-badge">Новинка</div>
+                    <div class="product-image">
+                        <div class="product-emoji">🎊</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Набір "Корпоратив"</h3>
+                        <p class="product-description">Стильне оформлення для офісного свята</p>
+                        <div class="product-footer">
+                            <span class="product-price">550 грн</span>
+                            <button class="btn btn-small btn-primary">Замовити</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Продукт 11 -->
+                <div class="product-card" data-category="numbers">
+                    <div class="product-image">
+                        <div class="product-emoji">🔢</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Набір цифр "Рік"</h3>
+                        <p class="product-description">4 цифри для позначення року</p>
+                        <div class="product-footer">
+                            <span class="product-price">600 грн</span>
+                            <button class="btn btn-small btn-primary">Замовити</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Продукт 12 -->
+                <div class="product-card" data-category="latex">
+                    <div class="product-image">
+                        <div class="product-emoji">⚫</div>
+                    </div>
+                    <div class="product-info">
+                        <h3>Кульки "Чорне Золото"</h3>
+                        <p class="product-description">Преміум набір чорних і золотих кульок</p>
+                        <div class="product-footer">
+                            <span class="product-price">350 грн</span>
+                            <button class="btn btn-small btn-primary">Замовити</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <h4>Taranik's Bubbles</h4>
+                    <p>Ваш надійний партнер у створенні святкової атмосфери</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Навігація</h4>
+                    <ul>
+                        <li><a href="index.html">Головна</a></li>
+                        <li><a href="catalog.html">Каталог</a></li>
+                        <li><a href="about.html">Про нас</a></li>
+                        <li><a href="contact.html">Контакти</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Контакти</h4>
+                    <ul>
+                        <li>📞 +380 XX XXX XX XX</li>
+                        <li>✉️ info@taranik.ua</li>
+                        <li>📍 м. Київ, вул. Святкова, 1</li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Слідкуйте за нами</h4>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Instagram</a>
+                        <a href="#" class="social-link">Telegram</a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2025 Taranik's Bubbles. Всі права захищені.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/script.js"></script>
+</body>
+</html>
+
+
