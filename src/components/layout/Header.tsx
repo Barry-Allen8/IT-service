@@ -106,56 +106,58 @@ export default function Header() {
 
         {/* Mobile Menu */}
         {isMobileMenuOpen && (
-          <nav className="lg:hidden mt-6 pb-6 flex flex-col gap-4">
-            <div>
-              <button
-                className="w-full text-left flex items-center justify-between py-2"
-                onClick={() => setServicesOpen(!servicesOpen)}
-              >
-                Послуги
-                <ChevronDown
-                  className={cn(
-                    "w-4 h-4 transition-transform",
-                    servicesOpen && "rotate-180"
-                  )}
-                />
-              </button>
-              {servicesOpen && (
-                <div className="pl-4 mt-2 space-y-2">
-                  {services.map((service) => (
-                    <Link
-                      key={service.href}
-                      href={service.href}
-                      className="block py-2 hover:text-primary"
-                      onClick={() => setIsMobileMenuOpen(false)}
-                    >
-                      {service.name}
-                    </Link>
-                  ))}
-                </div>
-              )}
-            </div>
-            <Link href="/courses" onClick={() => setIsMobileMenuOpen(false)}>
-              Курси
-            </Link>
-            <Link href="/portfolio" onClick={() => setIsMobileMenuOpen(false)}>
-              Портфоліо
-            </Link>
-            <Link href="/about" onClick={() => setIsMobileMenuOpen(false)}>
-              Про нас
-            </Link>
-            <Link href="/blog" onClick={() => setIsMobileMenuOpen(false)}>
-              Блог
-            </Link>
-            <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
-              Контакти
-            </Link>
-            <Button className="mt-4" asChild>
-              <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
-                Замовити консультацію
+          <div className="fixed inset-0 top-[72px] bg-white z-40 lg:hidden overflow-y-auto">
+            <nav className="container py-6 flex flex-col gap-4">
+              <div>
+                <button
+                  className="w-full text-left flex items-center justify-between py-2"
+                  onClick={() => setServicesOpen(!servicesOpen)}
+                >
+                  Послуги
+                  <ChevronDown
+                    className={cn(
+                      "w-4 h-4 transition-transform",
+                      servicesOpen && "rotate-180"
+                    )}
+                  />
+                </button>
+                {servicesOpen && (
+                  <div className="pl-4 mt-2 space-y-2">
+                    {services.map((service) => (
+                      <Link
+                        key={service.href}
+                        href={service.href}
+                        className="block py-2 hover:text-primary"
+                        onClick={() => setIsMobileMenuOpen(false)}
+                      >
+                        {service.name}
+                      </Link>
+                    ))}
+                  </div>
+                )}
+              </div>
+              <Link href="/courses" className="py-2" onClick={() => setIsMobileMenuOpen(false)}>
+                Курси
               </Link>
-            </Button>
-          </nav>
+              <Link href="/portfolio" className="py-2" onClick={() => setIsMobileMenuOpen(false)}>
+                Портфоліо
+              </Link>
+              <Link href="/about" className="py-2" onClick={() => setIsMobileMenuOpen(false)}>
+                Про нас
+              </Link>
+              <Link href="/blog" className="py-2" onClick={() => setIsMobileMenuOpen(false)}>
+                Блог
+              </Link>
+              <Link href="/contact" className="py-2" onClick={() => setIsMobileMenuOpen(false)}>
+                Контакти
+              </Link>
+              <Button className="mt-4" asChild>
+                <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
+                  Замовити консультацію
+                </Link>
+              </Button>
+            </nav>
+          </div>
         )}
       </div>
     </header>
