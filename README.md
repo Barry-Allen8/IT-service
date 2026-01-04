@@ -10,7 +10,7 @@
 - **Icons:** Lucide React
 - **Forms:** React Hook Form + Zod validation
 - **Мова:** TypeScript
-- **Fonts:** Google Fonts (Inter, Montserrat)
+- **Fonts:** System Font Stack (ui-sans-serif, Segoe UI, Roboto, etc.)
 
 ## 📦 Встановлення
 
