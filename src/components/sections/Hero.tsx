@@ -2,7 +2,7 @@
 
 import Button from "@/components/ui/Button";
 import Link from "next/link";
-import { ArrowRight, Sparkles, Code2, Cpu, Globe, Zap } from "lucide-react";
+import { ArrowRight, Sparkles, Code2, Cpu, Globe, Zap, Target, Rocket, Handshake, ShieldCheck } from "lucide-react";
 import { motion } from "framer-motion";
 import { useTranslations } from "next-intl";
 
@@ -176,20 +176,25 @@ export default function Hero() {
               className="mt-12 grid grid-cols-2 sm:grid-cols-4 gap-4"
             >
               {[
-                { icon: "🎯", label: t("stats.individual") },
-                { icon: "⚡", label: t("stats.modern") },
-                { icon: "🤝", label: t("stats.partnership") },
-                { icon: "🛡️", label: t("stats.quality") },
-              ].map((stat, index) => (
-                <motion.div
-                  key={index}
-                  className="text-center p-3 rounded-xl bg-white/60 backdrop-blur-sm border border-white/80 shadow-sm hover:shadow-md hover:bg-white/80 transition-all duration-300"
-                  whileHover={{ y: -4, scale: 1.02 }}
-                >
-                  <div className="text-2xl mb-1">{stat.icon}</div>
-                  <div className="text-xs text-muted font-medium">{stat.label}</div>
-                </motion.div>
-              ))}
+                { icon: Target, label: t("stats.individual"), color: "from-blue-500 to-cyan-500" },
+                { icon: Rocket, label: t("stats.modern"), color: "from-orange-500 to-amber-500" },
+                { icon: Handshake, label: t("stats.partnership"), color: "from-emerald-500 to-teal-500" },
+                { icon: ShieldCheck, label: t("stats.quality"), color: "from-violet-500 to-purple-500" },
+              ].map((stat, index) => {
+                const Icon = stat.icon;
+                return (
+                  <motion.div
+                    key={index}
+                    className="text-center p-4 rounded-xl bg-white/70 backdrop-blur-sm border border-white/80 shadow-sm hover:shadow-lg hover:bg-white transition-all duration-300 group"
+                    whileHover={{ y: -4, scale: 1.02 }}
+                  >
+                    <div className={`w-10 h-10 mx-auto mb-2 rounded-lg bg-gradient-to-br ${stat.color} flex items-center justify-center shadow-md group-hover:scale-110 transition-transform duration-300`}>
+                      <Icon className="w-5 h-5 text-white" />
+                    </div>
+                    <div className="text-xs text-muted font-medium leading-tight">{stat.label}</div>
+                  </motion.div>
+                );
+              })}
             </motion.div>
           </motion.div>
 
