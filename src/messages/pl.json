@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "title": "IT-service - Profesjonalne rozwiązania IT dla Twojego biznesu",
+    "description": "Tworzenie stron internetowych, chatbotów, rozwiązań AI i doradztwo IT. Pomagamy firmom rozwijać się dzięki nowoczesnym technologiom.",
+    "keywords": "tworzenie stron internetowych, chatboty, rozwiązania AI, doradztwo IT, tworzenie aplikacji webowych, Polska"
+  },
+  "header": {
+    "logo": "IT-service",
+    "nav": {
+      "services": "Usługi",
+      "courses": "Kursy",
+      "portfolio": "Portfolio",
+      "about": "O nas",
+      "blog": "Blog",
+      "contact": "Kontakt"
+    },
+    "cta": "Zamów konsultację",
+    "services_dropdown": {
+      "websites": "Tworzenie stron",
+      "chatbots": "Chatboty",
+      "ai_solutions": "Rozwiązania AI",
+      "consulting": "Doradztwo IT"
+    }
+  },
+  "hero": {
+    "badge": "Innowacyjne rozwiązania IT od 2020 roku",
+    "title": "Przekształcamy pomysły w",
+    "title_gradient": "cyfrowe rozwiązania",
+    "description": "Tworzenie stron internetowych, chatbotów, rozwiązań AI i kompleksowe doradztwo IT dla pomyślnego rozwoju Twojego biznesu",
+    "cta_primary": "Zamów konsultację",
+    "cta_secondary": "Nasze usługi",
+    "stats": {
+      "experience": "Lat doświadczenia",
+      "projects": "Projektów",
+      "clients": "Zadowolonych klientów",
+      "support": "Wsparcie"
+    }
+  },
+  "footer": {
+    "company_name": "IT-service",
+    "description": "Profesjonalne rozwiązania IT dla Twojego biznesu. Tworzenie stron, chatbotów i wdrażanie technologii AI.",
+    "sections": {
+      "services": "Usługi",
+      "company": "Firma",
+      "contacts": "Kontakty"
+    },
+    "services_links": {
+      "websites": "Tworzenie stron",
+      "chatbots": "Chatboty",
+      "ai": "Rozwiązania AI",
+      "consulting": "Doradztwo IT"
+    },
+    "company_links": {
+      "about": "O nas",
+      "portfolio": "Portfolio",
+      "blog": "Blog",
+      "courses": "Kursy"
+    },
+    "contacts": {
+      "phone": "Telefon",
+      "email": "Email",
+      "address": "Adres"
+    },
+    "social": {
+      "follow": "Śledź nas"
+    },
+    "copyright": "Wszystkie prawa zastrzeżone.",
+    "links": {
+      "privacy": "Polityka prywatności",
+      "terms": "Warunki użytkowania"
+    }
+  }
+}

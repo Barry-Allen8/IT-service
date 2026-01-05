@@ -1,0 +1,73 @@
+{
+  "metadata": {
+    "title": "IT-service - Professional IT Solutions for Your Business",
+    "description": "Website development, chatbots, AI solutions and IT consulting. We help businesses grow with modern technologies.",
+    "keywords": "website development, chatbots, AI solutions, IT consulting, web application development, Poland"
+  },
+  "header": {
+    "logo": "IT-service",
+    "nav": {
+      "services": "Services",
+      "courses": "Courses",
+      "portfolio": "Portfolio",
+      "about": "About",
+      "blog": "Blog",
+      "contact": "Contact"
+    },
+    "cta": "Request Consultation",
+    "services_dropdown": {
+      "websites": "Website Development",
+      "chatbots": "Chatbots",
+      "ai_solutions": "AI Solutions",
+      "consulting": "IT Consulting"
+    }
+  },
+  "hero": {
+    "badge": "Innovative IT solutions since 2020",
+    "title": "We transform ideas into",
+    "title_gradient": "digital solutions",
+    "description": "Website development, chatbots, AI solutions and comprehensive IT consulting for your business success",
+    "cta_primary": "Request Consultation",
+    "cta_secondary": "Our Services",
+    "stats": {
+      "experience": "Years of Experience",
+      "projects": "Projects",
+      "clients": "Satisfied Clients",
+      "support": "Support"
+    }
+  },
+  "footer": {
+    "company_name": "IT-service",
+    "description": "Professional IT solutions for your business. Website development, chatbots and AI technology implementation.",
+    "sections": {
+      "services": "Services",
+      "company": "Company",
+      "contacts": "Contacts"
+    },
+    "services_links": {
+      "websites": "Website Development",
+      "chatbots": "Chatbots",
+      "ai": "AI Solutions",
+      "consulting": "IT Consulting"
+    },
+    "company_links": {
+      "about": "About",
+      "portfolio": "Portfolio",
+      "blog": "Blog",
+      "courses": "Courses"
+    },
+    "contacts": {
+      "phone": "Phone",
+      "email": "Email",
+      "address": "Address"
+    },
+    "social": {
+      "follow": "Follow us"
+    },
+    "copyright": "All rights reserved.",
+    "links": {
+      "privacy": "Privacy Policy",
+      "terms": "Terms of Service"
+    }
+  }
+}
