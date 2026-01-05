@@ -2,14 +2,14 @@ import type { Metadata, Viewport } from "next";
 
 export const metadata: Metadata = {
   title: {
-    default: "IT-service - Profesjonalne rozwiązania IT dla Twojego biznesu",
-    template: "%s | IT-service",
+    default: "VektaDev - Profesjonalne rozwiązania IT dla Twojego biznesu",
+    template: "%s | VektaDev",
   },
   description: "Tworzenie stron, chatbotów, rozwiązań AI i konsulting IT. Pomagamy firmom rozwijać się dzięki nowoczesnym technologiom.",
   keywords: ["tworzenie stron", "chatboty", "rozwiązania AI", "konsulting IT", "web development", "Polska"],
-  authors: [{ name: "IT-service" }],
-  creator: "IT-service",
-  publisher: "IT-service",
+  authors: [{ name: "VektaDev" }],
+  creator: "VektaDev",
+  publisher: "VektaDev",
   formatDetection: {
     email: false,
     address: false,
@@ -20,16 +20,16 @@ export const metadata: Metadata = {
     canonical: "/",
   },
   openGraph: {
-    title: "IT-service - Profesjonalne rozwiązania IT",
+    title: "VektaDev - Profesjonalne rozwiązania IT",
     description: "Tworzenie stron, chatbotów, rozwiązań AI i konsulting IT",
     type: "website",
     locale: "pl_PL",
     url: "https://it-service.com",
-    siteName: "IT-service",
+    siteName: "VektaDev",
   },
   twitter: {
     card: "summary_large_image",
-    title: "IT-service - Profesjonalne rozwiązania IT",
+    title: "VektaDev - Profesjonalne rozwiązania IT",
     description: "Tworzenie stron, chatbotów, rozwiązań AI i konsulting IT",
   },
   robots: {

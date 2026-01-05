@@ -5,4 +5,4 @@ Allow: /
 Disallow: /api/
 
 # Sitemap
-Sitemap: https://it-service.com/sitemap.xml
+Sitemap: https://vektadev.com/sitemap.xml

@@ -99,7 +99,7 @@ export default function Header() {
         <div className="flex items-center justify-between">
           {/* Logo */}
           <Link href="/" className="text-2xl font-bold gradient-text">
-            IT-service
+            VektaDev
           </Link>
 
           {/* Desktop Navigation */}

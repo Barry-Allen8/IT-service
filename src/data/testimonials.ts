@@ -7,7 +7,7 @@ export const testimonials: Testimonial[] = [
     position: "CEO",
     company: "TechStart Ukraine",
     image: "/images/testimonials/oleksandr.jpg",
-    content: "IT-service створили для нас чудовий корпоративний сайт та інтегрували CRM-систему. Команда професіоналів, яка розуміє потреби бізнесу. Рекомендую!",
+    content: "VektaDev створили для нас чудовий корпоративний сайт та інтегрували CRM-систему. Команда професіоналів, яка розуміє потреби бізнесу. Рекомендую!",
     rating: 5,
   },
   {
@@ -25,7 +25,7 @@ export const testimonials: Testimonial[] = [
     position: "CTO",
     company: "DataFlow Solutions",
     image: "/images/testimonials/igor.jpg",
-    content: "Впровадження AI-рішень від IT-service допомогло нам автоматизувати 70% рутинних завдань. Економія часу та ресурсів колосальна.",
+    content: "Впровадження AI-рішень від VektaDev допомогло нам автоматизувати 70% рутинних завдань. Економія часу та ресурсів колосальна.",
     rating: 5,
   },
   {

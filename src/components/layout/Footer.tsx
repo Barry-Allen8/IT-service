@@ -67,7 +67,7 @@ export default function Footer() {
             transition={{ delay: 0.1 }}
           >
             <Link href="/" className="inline-block mb-4">
-              <span className="text-2xl font-bold gradient-text">IT-service</span>
+              <span className="text-2xl font-bold gradient-text">VektaDev</span>
             </Link>
             <p className="text-gray-400 mb-6 leading-relaxed">
               {t("description")}
@@ -198,13 +198,13 @@ export default function Footer() {
               </li>
               <li>
                 <a
-                  href="mailto:contact@it-service.pl"
+                  href="mailto:contact@vektadev.com"
                   className="flex items-center gap-3 text-gray-400 hover:text-white transition-colors group"
                 >
                   <div className="w-10 h-10 rounded-lg bg-white/5 group-hover:bg-primary/20 flex items-center justify-center flex-shrink-0 transition-colors">
                     <Mail className="w-5 h-5" />
                   </div>
-                  <span className="text-white font-medium">contact@it-service.pl</span>
+                  <span className="text-white font-medium">contact@vektadev.com</span>
                 </a>
               </li>
             </ul>
@@ -215,7 +215,7 @@ export default function Footer() {
         <div className="border-t border-white/10 mt-12 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-gray-500 text-sm">
-              © {currentYear} IT-service. {t("rights")}
+              © {currentYear} VektaDev. {t("rights")}
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-sm">
               <Link href="/privacy" className="text-gray-500 hover:text-white transition-colors">

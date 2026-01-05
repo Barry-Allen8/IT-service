@@ -1,7 +1,7 @@
 {
-  "name": "IT-service",
-  "short_name": "IT-service",
-  "description": "Професійні IT-рішення для вашого бізнесу",
+  "name": "VektaDev",
+  "short_name": "VektaDev",
+  "description": "Profesjonalne rozwiązania IT dla Twojego biznesu",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#ffffff",

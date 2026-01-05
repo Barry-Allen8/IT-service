@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Портфоліо - IT-service",
+  title: "Портфоліо - VektaDev",
   description: "Наші реалізовані проєкти та кейси",
 };
 

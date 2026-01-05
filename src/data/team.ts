@@ -6,7 +6,7 @@ export const teamMembers: TeamMember[] = [
     name: "Андрій Коваленко",
     position: "CEO & Lead Developer",
     image: "/images/team/andriy.jpg",
-    bio: "Засновник IT-service з 8-річним досвідом у веб-розробці. Спеціалізується на Next.js та AI-інтеграціях.",
+    bio: "Засновник VektaDev з 8-річним досвідом у веб-розробці. Спеціалізується на Next.js та AI-інтеграціях.",
     social: {
       linkedin: "https://linkedin.com/in/andriy-kovalenko",
       github: "https://github.com/andriy-kovalenko",

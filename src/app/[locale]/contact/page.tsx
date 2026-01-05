@@ -64,8 +64,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">{t("email")}</h3>
-                      <a href="mailto:info@it-service.com" className="text-muted hover:text-primary transition-colors">
-                        info@it-service.com
+                      <a href="mailto:info@vektadev.com" className="text-muted hover:text-primary transition-colors">
+                        info@vektadev.com
                       </a>
                     </div>
                   </div>

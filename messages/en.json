@@ -207,7 +207,7 @@
     "title": "About Us",
     "description": "We are a team of professionals creating modern IT solutions for business success",
     "story_title": "Our Story",
-    "story_p1": "IT-service was founded in 2020 with the mission of providing high-quality IT services.",
+    "story_p1": "VektaDev was founded in 2020 with the mission of providing high-quality IT services.",
     "story_p2": "Our team consists of experienced developers, designers and project managers.",
     "story_p3": "We believe in the power of technology and its ability to transform business.",
     "values_title": "Our Values",
@@ -267,7 +267,7 @@
   "privacy": {
     "title": "Privacy Policy",
     "general": "1. General Provisions",
-    "general_text": "This Privacy Policy defines the procedures for processing and protecting personal data of IT-service website users.",
+    "general_text": "This Privacy Policy defines the procedures for processing and protecting personal data of VektaDev website users.",
     "collection": "2. Information Collection",
     "collection_text": "We collect the following information:",
     "collection_items": ["Name and surname", "Contact information (email, phone)", "Information about inquiries"],
@@ -277,14 +277,14 @@
     "protection": "4. Data Protection",
     "protection_text": "We take all necessary measures to protect personal data.",
     "contact_title": "5. Contact",
-    "contact_text": "For privacy policy matters, please contact: info@it-service.com"
+    "contact_text": "For privacy policy matters, please contact: contact@vektadev.com"
   },
   "terms": {
     "title": "Terms of Use",
     "acceptance": "1. Acceptance of Terms",
     "acceptance_text": "By using this website, you agree to the terms of use.",
     "services_section": "2. Services",
-    "services_text": "IT-service provides web development, chatbot, AI solution and IT consulting services.",
+    "services_text": "VektaDev provides web development, chatbot, AI solution and IT consulting services.",
     "ip": "3. Intellectual Property",
     "ip_text": "All materials on the website are protected by copyright.",
     "liability": "4. Limitation of Liability",
@@ -292,7 +292,7 @@
     "changes": "5. Changes to Terms",
     "changes_text": "We reserve the right to change these terms at any time.",
     "contact_title": "6. Contact",
-    "contact_text": "For terms of use matters, please contact: info@it-service.com"
+    "contact_text": "For terms of use matters, please contact: contact@vektadev.com"
   },
   "common": {
     "loading": "Loading...",

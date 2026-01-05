@@ -207,7 +207,7 @@
     "title": "O nas",
     "description": "Jesteśmy zespołem profesjonalistów tworzących nowoczesne rozwiązania IT dla sukcesu biznesu",
     "story_title": "Nasza historia",
-    "story_p1": "IT-service została założona w 2020 roku z misją dostarczania wysokiej jakości usług IT.",
+    "story_p1": "VektaDev została założona w 2020 roku z misją dostarczania wysokiej jakości usług IT.",
     "story_p2": "Nasz zespół składa się z doświadczonych programistów, projektantów i menedżerów projektów.",
     "story_p3": "Wierzymy w siłę technologii i ich zdolność do transformacji biznesu.",
     "values_title": "Nasze wartości",
@@ -267,7 +267,7 @@
   "privacy": {
     "title": "Polityka prywatności",
     "general": "1. Postanowienia ogólne",
-    "general_text": "Niniejsza Polityka prywatności określa zasady przetwarzania i ochrony danych osobowych użytkowników strony IT-service.",
+    "general_text": "Niniejsza Polityka prywatności określa zasady przetwarzania i ochrony danych osobowych użytkowników strony VektaDev.",
     "collection": "2. Zbieranie informacji",
     "collection_text": "Zbieramy następujące informacje:",
     "collection_items": ["Imię i nazwisko", "Dane kontaktowe (email, telefon)", "Informacje o zapytaniach"],
@@ -277,14 +277,14 @@
     "protection": "4. Ochrona danych",
     "protection_text": "Podejmujemy wszelkie niezbędne środki w celu ochrony danych osobowych.",
     "contact_title": "5. Kontakt",
-    "contact_text": "W sprawach dotyczących polityki prywatności prosimy o kontakt: info@it-service.com"
+    "contact_text": "W sprawach dotyczących polityki prywatności prosimy o kontakt: contact@vektadev.com"
   },
   "terms": {
     "title": "Warunki użytkowania",
     "acceptance": "1. Akceptacja warunków",
     "acceptance_text": "Korzystając z tej strony, zgadzasz się z warunkami użytkowania.",
     "services_section": "2. Usługi",
-    "services_text": "IT-service świadczy usługi tworzenia stron, chatbotów, rozwiązań AI i konsultingu IT.",
+    "services_text": "VektaDev świadczy usługi tworzenia stron, chatbotów, rozwiązań AI i konsultingu IT.",
     "ip": "3. Własność intelektualna",
     "ip_text": "Wszystkie materiały na stronie są chronione prawem autorskim.",
     "liability": "4. Ograniczenie odpowiedzialności",
@@ -292,7 +292,7 @@
     "changes": "5. Zmiany warunków",
     "changes_text": "Zastrzegamy sobie prawo do zmiany niniejszych warunków w dowolnym momencie.",
     "contact_title": "6. Kontakt",
-    "contact_text": "W sprawach dotyczących warunków użytkowania prosimy o kontakt: info@it-service.com"
+    "contact_text": "W sprawach dotyczących warunków użytkowania prosimy o kontakt: contact@vektadev.com"
   },
   "common": {
     "loading": "Ładowanie...",

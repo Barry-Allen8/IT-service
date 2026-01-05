@@ -3,7 +3,7 @@ import { courses } from "@/data/courses";
 import { blogPosts } from "@/data/blog";
 
 export default function sitemap(): MetadataRoute.Sitemap {
-  const baseUrl = "https://it-service.com";
+  const baseUrl = "https://vektadev.com";
 
   // Static pages
   const staticPages: MetadataRoute.Sitemap = [
