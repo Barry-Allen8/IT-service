@@ -1,0 +1,294 @@
+{
+  "navigation": {
+    "services": "Usługi",
+    "courses": "Kursy",
+    "portfolio": "Portfolio",
+    "about": "O nas",
+    "blog": "Blog",
+    "contact": "Kontakt",
+    "consultation": "Zamów konsultację"
+  },
+  "services_menu": {
+    "websites": "Tworzenie stron",
+    "chatbots": "Chatboty",
+    "ai_solutions": "Rozwiązania AI",
+    "consulting": "Konsulting IT",
+    "mobile_apps": "Aplikacje mobilne",
+    "cloud": "Rozwiązania chmurowe"
+  },
+  "hero": {
+    "badge": "Innowacyjne rozwiązania IT od 2020 roku",
+    "title": "Przekształcamy pomysły w",
+    "title_gradient": "rozwiązania cyfrowe",
+    "description": "Tworzenie stron, chatbotów, rozwiązań AI i kompleksowy konsulting IT dla sukcesu Twojego biznesu",
+    "cta_primary": "Zamów konsultację",
+    "cta_secondary": "Nasze usługi",
+    "stats": {
+      "experience": "Lat doświadczenia",
+      "projects": "Projektów",
+      "clients": "Zadowolonych klientów",
+      "support": "Wsparcie"
+    }
+  },
+  "services": {
+    "title": "Nasze usługi",
+    "description": "Kompleksowe rozwiązania IT dla Twojego biznesu od doświadczonych specjalistów",
+    "learn_more": "Dowiedz się więcej",
+    "order": "Zamów",
+    "what_you_get": "Co otrzymujesz",
+    "packages": "Pakiety usług",
+    "popular": "Popularny",
+    "websites": {
+      "title": "Tworzenie stron",
+      "description": "Tworzymy nowoczesne, szybkie i wygodne strony dla Twojego biznesu",
+      "hero_description": "Tworzymy nowoczesne, szybkie i wygodne strony, które pomagają biznesowi rosnąć",
+      "features": ["Landing page i strony promocyjne", "Strony korporacyjne", "Sklepy internetowe", "Aplikacje webowe"],
+      "benefits": {
+        "design": { "title": "Nowoczesny design", "description": "Unikalny design odzwierciedlający Twoją indywidualność" },
+        "speed": { "title": "Szybka praca", "description": "Optymalizacja dla maksymalnej szybkości ładowania" },
+        "responsive": { "title": "Responsywność", "description": "Idealny wygląd na wszystkich urządzeniach i ekranach" },
+        "seo": { "title": "Optymalizacja SEO", "description": "Ustawienia dla wysokich pozycji w wyszukiwarkach" },
+        "security": { "title": "Bezpieczeństwo", "description": "Ochrona przed atakami hakerskimi i utratą danych" },
+        "support": { "title": "Wsparcie", "description": "Wsparcie techniczne po uruchomieniu projektu" }
+      },
+      "packages": {
+        "landing": {
+          "name": "Landing",
+          "price": "od 3 000 zł",
+          "features": ["Do 5 sekcji", "Responsywny design", "Formularz kontaktowy", "Optymalizacja SEO", "Szybkie ładowanie"]
+        },
+        "corporate": {
+          "name": "Strona korporacyjna",
+          "price": "od 6 000 zł",
+          "features": ["Do 15 stron", "Unikalny design", "System zarządzania", "Wielojęzyczność", "Integracje", "Wsparcie 3 miesiące"]
+        },
+        "ecommerce": {
+          "name": "Sklep internetowy",
+          "price": "od 10 000 zł",
+          "features": ["Katalog produktów", "Koszyk i płatności", "System zamówień", "Integracja z CRM", "Analityka", "Wsparcie 6 miesięcy"]
+        }
+      }
+    },
+    "chatbots": {
+      "title": "Chatboty",
+      "description": "Automatyzuj komunikację z klientami za pomocą inteligentnych botów",
+      "hero_description": "Automatyzacja komunikacji z klientami za pomocą inteligentnych botów",
+      "features": ["Boty Telegram", "Boty Viber/WhatsApp", "Czaty na stronie", "Integracja z CRM"],
+      "benefits": {
+        "support": { "title": "Wsparcie 24/7", "description": "Bot pracuje całą dobę bez przerw i weekendów" },
+        "instant": { "title": "Natychmiastowe odpowiedzi", "description": "Klienci otrzymują odpowiedzi w ciągu sekund" },
+        "cost": { "title": "Redukcja kosztów", "description": "Oszczędność na pracownikach wsparcia" },
+        "integration": { "title": "Integracja z CRM", "description": "Automatyczne dodawanie leadów do systemu" }
+      }
+    },
+    "ai_solutions": {
+      "title": "Rozwiązania AI",
+      "description": "Wdrażamy sztuczną inteligencję dla optymalizacji procesów biznesowych",
+      "hero_description": "Wdrożenie sztucznej inteligencji dla optymalizacji procesów biznesowych",
+      "features": ["Integracja ChatGPT", "Asystenci AI", "Automatyzacja procesów", "Analiza danych"],
+      "benefits": {
+        "automation": { "title": "Automatyzacja", "description": "Automatyzacja rutynowych zadań i procesów" },
+        "analytics": { "title": "Analityka", "description": "Głęboka analiza danych i prognozowanie" },
+        "personalization": { "title": "Personalizacja", "description": "Indywidualne podejście do każdego klienta" },
+        "efficiency": { "title": "Efektywność", "description": "Zwiększenie produktywności zespołu" }
+      }
+    },
+    "consulting": {
+      "title": "Konsulting IT",
+      "description": "Profesjonalne doradztwo w zakresie transformacji cyfrowej",
+      "hero_description": "Profesjonalne doradztwo w zakresie transformacji cyfrowej Twojego biznesu",
+      "features": ["Audyt infrastruktury IT", "Strategia rozwoju", "Wybór technologii", "Optymalizacja procesów"],
+      "benefits": {
+        "audit": { "title": "Audyt", "description": "Pełna analiza obecnej infrastruktury IT" },
+        "strategy": { "title": "Strategia", "description": "Opracowanie planu rozwoju technologicznego" },
+        "optimization": { "title": "Optymalizacja", "description": "Poprawa efektywności procesów" },
+        "training": { "title": "Szkolenia", "description": "Szkolenie zespołu z nowych narzędzi" }
+      }
+    },
+    "mobile_apps": {
+      "title": "Aplikacje mobilne",
+      "description": "Tworzenie natywnych i cross-platformowych aplikacji mobilnych",
+      "hero_description": "Tworzenie natywnych i cross-platformowych aplikacji mobilnych",
+      "features": ["iOS i Android", "React Native / Flutter", "Design UX/UI", "Wsparcie i aktualizacje"],
+      "benefits": {
+        "native": { "title": "Natywna jakość", "description": "Wysoka wydajność i natywny wygląd" },
+        "cross": { "title": "Cross-platform", "description": "Jeden kod dla iOS i Android" },
+        "ux": { "title": "UX/UI Design", "description": "Intuicyjny i atrakcyjny interfejs" },
+        "support": { "title": "Wsparcie", "description": "Aktualizacje i wsparcie techniczne" }
+      }
+    },
+    "cloud": {
+      "title": "Rozwiązania chmurowe",
+      "description": "DevOps, hosting i konfiguracja infrastruktury chmurowej",
+      "hero_description": "DevOps, hosting i konfiguracja infrastruktury chmurowej",
+      "features": ["AWS / Google Cloud / Azure", "Konfiguracja CI/CD", "Docker / Kubernetes", "Monitoring i bezpieczeństwo"],
+      "benefits": {
+        "scalability": { "title": "Skalowalność", "description": "Elastyczne skalowanie zasobów" },
+        "reliability": { "title": "Niezawodność", "description": "Wysoka dostępność i odporność na awarie" },
+        "security": { "title": "Bezpieczeństwo", "description": "Ochrona danych i zgodność z przepisami" },
+        "automation": { "title": "Automatyzacja", "description": "CI/CD i automatyczne wdrożenia" }
+      }
+    }
+  },
+  "why_us": {
+    "title": "Dlaczego my",
+    "description": "Łączymy ekspertyzę, nowoczesne technologie i podejście zorientowane na klienta",
+    "professionalism": { "title": "Profesjonalizm", "description": "Zespół doświadczonych specjalistów z ponad 5-letnim doświadczeniem" },
+    "speed": { "title": "Szybkość", "description": "Dotrzymujemy terminów i zapewniamy szybki start projektów" },
+    "reliability": { "title": "Niezawodność", "description": "Gwarantujemy jakość, bezpieczeństwo i wsparcie po uruchomieniu" },
+    "individual": { "title": "Indywidualne podejście", "description": "Rozumiemy potrzeby każdego klienta i proponujemy optymalne rozwiązania" }
+  },
+  "process": {
+    "title": "Nasz proces pracy",
+    "description": "Przejrzysty i zrozumiały proces od pomysłu do uruchomienia",
+    "steps": {
+      "consultation": { "title": "Konsultacja i analiza", "description": "Omawiamy Twoje cele, analizujemy potrzeby i tworzymy specyfikację" },
+      "design": { "title": "Projektowanie i design", "description": "Tworzymy architekturę projektu i rozwijamy unikalny design" },
+      "development": { "title": "Rozwój", "description": "Realizujemy projekt używając nowoczesnych technologii" },
+      "testing": { "title": "Testowanie", "description": "Dokładnie testujemy wszystkie funkcje i optymalizujemy wydajność" },
+      "launch": { "title": "Uruchomienie i wsparcie", "description": "Uruchamiamy projekt i zapewniamy wsparcie techniczne" }
+    }
+  },
+  "testimonials": { "title": "Opinie klientów", "description": "Co mówią o nas nasi klienci" },
+  "cta": {
+    "title": "Gotowy do rozpoczęcia projektu?",
+    "description": "Uzyskaj bezpłatną konsultację od naszych ekspertów i dowiedz się, jak możemy pomóc Twojemu biznesowi się rozwijać",
+    "button_primary": "Zamów konsultację",
+    "button_secondary": "Zobacz portfolio"
+  },
+  "footer": {
+    "description": "Profesjonalne rozwiązania IT dla Twojego biznesu. Tworzenie stron, chatbotów i wdrażanie technologii AI.",
+    "services_title": "Usługi",
+    "company_title": "Firma",
+    "contact_title": "Kontakt",
+    "address": "Warszawa, ul. Marszałkowska 1",
+    "working_hours": "Pn-Pt: 9:00 - 18:00",
+    "weekend": "Sb-Nd: Wolne",
+    "rights": "Wszelkie prawa zastrzeżone.",
+    "privacy": "Polityka prywatności",
+    "terms": "Warunki użytkowania"
+  },
+  "contact": {
+    "title": "Skontaktuj się z nami",
+    "description": "Gotowy do omówienia projektu? Zostaw zgłoszenie, a my skontaktujemy się z Tobą wkrótce",
+    "form_title": "Formularz kontaktowy",
+    "info_title": "Informacje kontaktowe",
+    "address": "Adres",
+    "phone": "Telefon",
+    "email": "Email",
+    "hours": "Godziny pracy",
+    "form": {
+      "name": "Imię *",
+      "name_placeholder": "Twoje imię",
+      "email": "Email *",
+      "email_placeholder": "twoj@email.com",
+      "phone": "Telefon",
+      "phone_placeholder": "+48 ___ ___ ___",
+      "service": "Usługa",
+      "service_placeholder": "Wybierz usługę",
+      "message": "Wiadomość *",
+      "message_placeholder": "Opowiedz o swoim projekcie...",
+      "submit": "Wyślij",
+      "submitting": "Wysyłanie...",
+      "success": "Dziękujemy! Twoja wiadomość została wysłana.",
+      "error": "Wystąpił błąd. Spróbuj ponownie."
+    }
+  },
+  "about": {
+    "title": "O nas",
+    "description": "Jesteśmy zespołem profesjonalistów tworzących nowoczesne rozwiązania IT dla sukcesu biznesu",
+    "story_title": "Nasza historia",
+    "story_p1": "IT-service została założona w 2020 roku z misją dostarczania wysokiej jakości usług IT.",
+    "story_p2": "Nasz zespół składa się z doświadczonych programistów, projektantów i menedżerów projektów.",
+    "story_p3": "Wierzymy w siłę technologii i ich zdolność do transformacji biznesu.",
+    "values_title": "Nasze wartości",
+    "values": {
+      "focus": { "title": "Skupienie na rezultatach", "description": "Koncentrujemy się na osiąganiu celów biznesowych klientów" },
+      "quality": { "title": "Jakość przede wszystkim", "description": "Przestrzegamy najwyższych standardów w każdym projekcie" },
+      "partnership": { "title": "Partnerstwo", "description": "Budujemy długoterminowe relacje z klientami" },
+      "innovation": { "title": "Innowacje", "description": "Używamy najnowszych technologii i podejść" }
+    },
+    "team_title": "Nasz zespół",
+    "stats": { "years": "Lat na rynku", "projects": "Zrealizowanych projektów", "clients": "Zadowolonych klientów", "team": "Specjalistów" },
+    "cta_title": "Gotowy do współpracy?",
+    "cta_description": "Skontaktuj się z nami, aby omówić Twój projekt",
+    "cta_button": "Skontaktuj się"
+  },
+  "courses": {
+    "title": "Nasze kursy",
+    "description": "Ucz się od najlepszych ekspertów i zdobywaj praktyczne umiejętności",
+    "duration": "Czas trwania",
+    "lessons": "lekcji",
+    "format": "Format",
+    "from": "Od",
+    "details": "Szczegóły",
+    "for_whom": "Dla kogo ten kurs",
+    "benefits": "Korzyści z kursu",
+    "instructor": "Instruktor",
+    "pricing": "Cennik",
+    "recommended": "Polecane",
+    "choose": "Wybierz",
+    "program": "Program kursu",
+    "enroll": "Zapisz się na kurs"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "description": "Poznaj nasze zrealizowane projekty",
+    "all": "Wszystkie",
+    "view": "Zobacz",
+    "no_projects": "Brak projektów w tej kategorii"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Przydatne artykuły o IT, technologiach i biznesie",
+    "back": "Powrót do bloga",
+    "author": "Autor artykułu",
+    "need_help": "Potrzebujesz pomocy z projektem?",
+    "get_consultation": "Uzyskaj bezpłatną konsultację od naszych ekspertów",
+    "contact_us": "Skontaktuj się",
+    "related": "Podobne artykuły"
+  },
+  "not_found": {
+    "title": "Strona nie znaleziona",
+    "description": "Przepraszamy, ale strona, której szukasz, nie istnieje lub została przeniesiona.",
+    "home": "Strona główna",
+    "contact": "Skontaktuj się"
+  },
+  "privacy": {
+    "title": "Polityka prywatności",
+    "general": "1. Postanowienia ogólne",
+    "general_text": "Niniejsza Polityka prywatności określa zasady przetwarzania i ochrony danych osobowych użytkowników strony IT-service.",
+    "collection": "2. Zbieranie informacji",
+    "collection_text": "Zbieramy następujące informacje:",
+    "collection_items": ["Imię i nazwisko", "Dane kontaktowe (email, telefon)", "Informacje o zapytaniach"],
+    "usage": "3. Wykorzystanie informacji",
+    "usage_text": "Zebrane informacje są wykorzystywane do:",
+    "usage_items": ["Świadczenia naszych usług", "Kontaktu z klientami", "Poprawy jakości obsługi"],
+    "protection": "4. Ochrona danych",
+    "protection_text": "Podejmujemy wszelkie niezbędne środki w celu ochrony danych osobowych.",
+    "contact_title": "5. Kontakt",
+    "contact_text": "W sprawach dotyczących polityki prywatności prosimy o kontakt: info@it-service.com"
+  },
+  "terms": {
+    "title": "Warunki użytkowania",
+    "acceptance": "1. Akceptacja warunków",
+    "acceptance_text": "Korzystając z tej strony, zgadzasz się z warunkami użytkowania.",
+    "services_section": "2. Usługi",
+    "services_text": "IT-service świadczy usługi tworzenia stron, chatbotów, rozwiązań AI i konsultingu IT.",
+    "ip": "3. Własność intelektualna",
+    "ip_text": "Wszystkie materiały na stronie są chronione prawem autorskim.",
+    "liability": "4. Ograniczenie odpowiedzialności",
+    "liability_text": "Firma nie ponosi odpowiedzialności za pośrednie szkody wynikające z korzystania z naszych usług.",
+    "changes": "5. Zmiany warunków",
+    "changes_text": "Zastrzegamy sobie prawo do zmiany niniejszych warunków w dowolnym momencie.",
+    "contact_title": "6. Kontakt",
+    "contact_text": "W sprawach dotyczących warunków użytkowania prosimy o kontakt: info@it-service.com"
+  },
+  "common": {
+    "loading": "Ładowanie...",
+    "error": "Coś poszło nie tak",
+    "try_again": "Spróbuj ponownie",
+    "home": "Strona główna",
+    "currency": "zł"
+  }
+}

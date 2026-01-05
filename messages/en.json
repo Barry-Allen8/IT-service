@@ -1,0 +1,294 @@
+{
+  "navigation": {
+    "services": "Services",
+    "courses": "Courses",
+    "portfolio": "Portfolio",
+    "about": "About",
+    "blog": "Blog",
+    "contact": "Contact",
+    "consultation": "Book consultation"
+  },
+  "services_menu": {
+    "websites": "Web Development",
+    "chatbots": "Chatbots",
+    "ai_solutions": "AI Solutions",
+    "consulting": "IT Consulting",
+    "mobile_apps": "Mobile Apps",
+    "cloud": "Cloud Solutions"
+  },
+  "hero": {
+    "badge": "Innovative IT solutions since 2020",
+    "title": "Transforming ideas into",
+    "title_gradient": "digital solutions",
+    "description": "Web development, chatbots, AI solutions and comprehensive IT consulting for your business success",
+    "cta_primary": "Book consultation",
+    "cta_secondary": "Our services",
+    "stats": {
+      "experience": "Years of experience",
+      "projects": "Projects",
+      "clients": "Satisfied clients",
+      "support": "Support"
+    }
+  },
+  "services": {
+    "title": "Our Services",
+    "description": "Comprehensive IT solutions for your business from experienced specialists",
+    "learn_more": "Learn more",
+    "order": "Order",
+    "what_you_get": "What you get",
+    "packages": "Service packages",
+    "popular": "Popular",
+    "websites": {
+      "title": "Web Development",
+      "description": "We create modern, fast and user-friendly websites for your business",
+      "hero_description": "We create modern, fast and user-friendly websites that help businesses grow",
+      "features": ["Landing pages and promo sites", "Corporate websites", "E-commerce stores", "Web applications"],
+      "benefits": {
+        "design": { "title": "Modern design", "description": "Unique design reflecting your individuality" },
+        "speed": { "title": "Fast performance", "description": "Optimization for maximum loading speed" },
+        "responsive": { "title": "Responsiveness", "description": "Perfect look on all devices and screens" },
+        "seo": { "title": "SEO optimization", "description": "Settings for high positions in search engines" },
+        "security": { "title": "Security", "description": "Protection against hacker attacks and data loss" },
+        "support": { "title": "Support", "description": "Technical support after project launch" }
+      },
+      "packages": {
+        "landing": {
+          "name": "Landing",
+          "price": "from $800",
+          "features": ["Up to 5 sections", "Responsive design", "Contact form", "SEO optimization", "Fast loading"]
+        },
+        "corporate": {
+          "name": "Corporate website",
+          "price": "from $1,500",
+          "features": ["Up to 15 pages", "Unique design", "CMS", "Multi-language", "Integrations", "3 months support"]
+        },
+        "ecommerce": {
+          "name": "E-commerce store",
+          "price": "from $2,500",
+          "features": ["Product catalog", "Cart and payments", "Order system", "CRM integration", "Analytics", "6 months support"]
+        }
+      }
+    },
+    "chatbots": {
+      "title": "Chatbots",
+      "description": "Automate customer communication with intelligent bots",
+      "hero_description": "Automating customer communication with intelligent bots",
+      "features": ["Telegram bots", "Viber/WhatsApp bots", "Website chats", "CRM integration"],
+      "benefits": {
+        "support": { "title": "24/7 Support", "description": "Bot works around the clock without breaks and weekends" },
+        "instant": { "title": "Instant responses", "description": "Clients get answers in seconds" },
+        "cost": { "title": "Cost reduction", "description": "Savings on support staff" },
+        "integration": { "title": "CRM integration", "description": "Automatic lead addition to the system" }
+      }
+    },
+    "ai_solutions": {
+      "title": "AI Solutions",
+      "description": "We implement artificial intelligence to optimize business processes",
+      "hero_description": "Implementing artificial intelligence to optimize business processes",
+      "features": ["ChatGPT integration", "AI assistants", "Process automation", "Data analytics"],
+      "benefits": {
+        "automation": { "title": "Automation", "description": "Automation of routine tasks and processes" },
+        "analytics": { "title": "Analytics", "description": "Deep data analysis and forecasting" },
+        "personalization": { "title": "Personalization", "description": "Individual approach to each client" },
+        "efficiency": { "title": "Efficiency", "description": "Increasing team productivity" }
+      }
+    },
+    "consulting": {
+      "title": "IT Consulting",
+      "description": "Professional consulting on digital transformation",
+      "hero_description": "Professional consulting on digital transformation of your business",
+      "features": ["IT infrastructure audit", "Development strategy", "Technology selection", "Process optimization"],
+      "benefits": {
+        "audit": { "title": "Audit", "description": "Full analysis of current IT infrastructure" },
+        "strategy": { "title": "Strategy", "description": "Development of technology growth plan" },
+        "optimization": { "title": "Optimization", "description": "Improving process efficiency" },
+        "training": { "title": "Training", "description": "Team training on new tools" }
+      }
+    },
+    "mobile_apps": {
+      "title": "Mobile Apps",
+      "description": "Development of native and cross-platform mobile applications",
+      "hero_description": "Development of native and cross-platform mobile applications",
+      "features": ["iOS and Android", "React Native / Flutter", "UX/UI design", "Support and updates"],
+      "benefits": {
+        "native": { "title": "Native quality", "description": "High performance and native look" },
+        "cross": { "title": "Cross-platform", "description": "One codebase for iOS and Android" },
+        "ux": { "title": "UX/UI Design", "description": "Intuitive and attractive interface" },
+        "support": { "title": "Support", "description": "Updates and technical support" }
+      }
+    },
+    "cloud": {
+      "title": "Cloud Solutions",
+      "description": "DevOps, hosting and cloud infrastructure setup",
+      "hero_description": "DevOps, hosting and cloud infrastructure setup",
+      "features": ["AWS / Google Cloud / Azure", "CI/CD setup", "Docker / Kubernetes", "Monitoring and security"],
+      "benefits": {
+        "scalability": { "title": "Scalability", "description": "Flexible resource scaling" },
+        "reliability": { "title": "Reliability", "description": "High availability and fault tolerance" },
+        "security": { "title": "Security", "description": "Data protection and compliance" },
+        "automation": { "title": "Automation", "description": "CI/CD and automatic deployments" }
+      }
+    }
+  },
+  "why_us": {
+    "title": "Why Choose Us",
+    "description": "We combine expertise, modern technologies and client-oriented approach",
+    "professionalism": { "title": "Professionalism", "description": "Team of experienced specialists with over 5 years of experience" },
+    "speed": { "title": "Speed", "description": "We meet deadlines and ensure quick project starts" },
+    "reliability": { "title": "Reliability", "description": "We guarantee quality, security and post-launch support" },
+    "individual": { "title": "Individual Approach", "description": "We understand each client's needs and offer optimal solutions" }
+  },
+  "process": {
+    "title": "Our Work Process",
+    "description": "Transparent and clear process from idea to launch",
+    "steps": {
+      "consultation": { "title": "Consultation and Analysis", "description": "We discuss your goals, analyze needs and create specifications" },
+      "design": { "title": "Design and Planning", "description": "We create project architecture and develop unique design" },
+      "development": { "title": "Development", "description": "We implement the project using modern technologies" },
+      "testing": { "title": "Testing", "description": "We thoroughly test all functions and optimize performance" },
+      "launch": { "title": "Launch and Support", "description": "We launch the project and provide technical support" }
+    }
+  },
+  "testimonials": { "title": "Client Reviews", "description": "What our clients say about us" },
+  "cta": {
+    "title": "Ready to start your project?",
+    "description": "Get a free consultation from our experts and learn how we can help your business grow",
+    "button_primary": "Book consultation",
+    "button_secondary": "View portfolio"
+  },
+  "footer": {
+    "description": "Professional IT solutions for your business. Web development, chatbots and AI technology implementation.",
+    "services_title": "Services",
+    "company_title": "Company",
+    "contact_title": "Contact",
+    "address": "Warsaw, Marszałkowska St. 1",
+    "working_hours": "Mon-Fri: 9:00 AM - 6:00 PM",
+    "weekend": "Sat-Sun: Closed",
+    "rights": "All rights reserved.",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use"
+  },
+  "contact": {
+    "title": "Contact Us",
+    "description": "Ready to discuss your project? Leave a request and we'll contact you soon",
+    "form_title": "Contact Form",
+    "info_title": "Contact Information",
+    "address": "Address",
+    "phone": "Phone",
+    "email": "Email",
+    "hours": "Working Hours",
+    "form": {
+      "name": "Name *",
+      "name_placeholder": "Your name",
+      "email": "Email *",
+      "email_placeholder": "your@email.com",
+      "phone": "Phone",
+      "phone_placeholder": "+48 ___ ___ ___",
+      "service": "Service",
+      "service_placeholder": "Select a service",
+      "message": "Message *",
+      "message_placeholder": "Tell us about your project...",
+      "submit": "Send",
+      "submitting": "Sending...",
+      "success": "Thank you! Your message has been sent.",
+      "error": "An error occurred. Please try again."
+    }
+  },
+  "about": {
+    "title": "About Us",
+    "description": "We are a team of professionals creating modern IT solutions for business success",
+    "story_title": "Our Story",
+    "story_p1": "IT-service was founded in 2020 with the mission of providing high-quality IT services.",
+    "story_p2": "Our team consists of experienced developers, designers and project managers.",
+    "story_p3": "We believe in the power of technology and its ability to transform business.",
+    "values_title": "Our Values",
+    "values": {
+      "focus": { "title": "Result Focus", "description": "We focus on achieving our clients' business goals" },
+      "quality": { "title": "Quality First", "description": "We maintain the highest standards in every project" },
+      "partnership": { "title": "Partnership", "description": "We build long-term relationships with clients" },
+      "innovation": { "title": "Innovation", "description": "We use the latest technologies and approaches" }
+    },
+    "team_title": "Our Team",
+    "stats": { "years": "Years in market", "projects": "Completed projects", "clients": "Satisfied clients", "team": "Specialists" },
+    "cta_title": "Ready to collaborate?",
+    "cta_description": "Contact us to discuss your project",
+    "cta_button": "Contact us"
+  },
+  "courses": {
+    "title": "Our Courses",
+    "description": "Learn from the best experts and gain practical skills",
+    "duration": "Duration",
+    "lessons": "lessons",
+    "format": "Format",
+    "from": "From",
+    "details": "Details",
+    "for_whom": "Who is this course for",
+    "benefits": "Course Benefits",
+    "instructor": "Instructor",
+    "pricing": "Pricing",
+    "recommended": "Recommended",
+    "choose": "Choose",
+    "program": "Course Program",
+    "enroll": "Enroll in course"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "description": "Explore our completed projects",
+    "all": "All",
+    "view": "View",
+    "no_projects": "No projects in this category"
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Useful articles about IT, technology and business",
+    "back": "Back to blog",
+    "author": "Article author",
+    "need_help": "Need help with a project?",
+    "get_consultation": "Get a free consultation from our experts",
+    "contact_us": "Contact us",
+    "related": "Related articles"
+  },
+  "not_found": {
+    "title": "Page Not Found",
+    "description": "Sorry, but the page you are looking for does not exist or has been moved.",
+    "home": "Home",
+    "contact": "Contact us"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "general": "1. General Provisions",
+    "general_text": "This Privacy Policy defines the procedures for processing and protecting personal data of IT-service website users.",
+    "collection": "2. Information Collection",
+    "collection_text": "We collect the following information:",
+    "collection_items": ["Name and surname", "Contact information (email, phone)", "Information about inquiries"],
+    "usage": "3. Information Usage",
+    "usage_text": "Collected information is used for:",
+    "usage_items": ["Providing our services", "Client communication", "Service quality improvement"],
+    "protection": "4. Data Protection",
+    "protection_text": "We take all necessary measures to protect personal data.",
+    "contact_title": "5. Contact",
+    "contact_text": "For privacy policy matters, please contact: info@it-service.com"
+  },
+  "terms": {
+    "title": "Terms of Use",
+    "acceptance": "1. Acceptance of Terms",
+    "acceptance_text": "By using this website, you agree to the terms of use.",
+    "services_section": "2. Services",
+    "services_text": "IT-service provides web development, chatbot, AI solution and IT consulting services.",
+    "ip": "3. Intellectual Property",
+    "ip_text": "All materials on the website are protected by copyright.",
+    "liability": "4. Limitation of Liability",
+    "liability_text": "The company is not liable for indirect damages resulting from the use of our services.",
+    "changes": "5. Changes to Terms",
+    "changes_text": "We reserve the right to change these terms at any time.",
+    "contact_title": "6. Contact",
+    "contact_text": "For terms of use matters, please contact: info@it-service.com"
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Something went wrong",
+    "try_again": "Try again",
+    "home": "Home",
+    "currency": "$"
+  }
+}

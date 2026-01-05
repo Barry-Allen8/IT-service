@@ -1,0 +1,8 @@
+# robots.txt for IT-service
+
+User-agent: *
+Allow: /
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://it-service.com/sitemap.xml
