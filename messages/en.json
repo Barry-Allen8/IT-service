@@ -346,7 +346,40 @@
     "all": "All",
     "view": "View",
     "no_projects": "No projects in this category",
-    "demo_note": "Projects marked [Demo] are demonstration projects showing our technical capabilities"
+    "demo_note": "Projects marked [Demo] are demonstration projects showing our technical capabilities",
+    "categories": {
+      "ecommerce": "E-commerce",
+      "website": "Website",
+      "chatbot": "Chatbot",
+      "ai_solution": "AI Solution",
+      "mobile_app": "Mobile App"
+    },
+    "projects": {
+      "electronics_shop": {
+        "title": "[Demo] Electronics Online Store",
+        "description": "Demo project: full-featured online store with payment integration, filtering system and personal account"
+      },
+      "restaurant_bot": {
+        "title": "[Demo] Restaurant Telegram Bot",
+        "description": "Demo project: bot for receiving orders and table reservations with CRM integration"
+      },
+      "corporate_website": {
+        "title": "[Demo] Corporate Website",
+        "description": "Demo project: multilingual company website with content management system"
+      },
+      "ai_assistant": {
+        "title": "[Demo] AI Assistant",
+        "description": "Demo project: intelligent assistant for processing requests and automating processes"
+      },
+      "fitness_app": {
+        "title": "[Demo] Fitness Mobile App",
+        "description": "Demo project: cross-platform app for tracking workouts and nutrition"
+      },
+      "education_platform": {
+        "title": "[Demo] Education Platform",
+        "description": "Demo project: online platform for distance learning with video courses"
+      }
+    }
   },
   "blog": {
     "title": "Blog",

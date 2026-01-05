@@ -346,7 +346,40 @@
     "all": "Wszystkie",
     "view": "Zobacz",
     "no_projects": "Brak projektów w tej kategorii",
-    "demo_note": "Projekty oznaczone [Demo] to projekty demonstracyjne pokazujące nasze możliwości techniczne"
+    "demo_note": "Projekty oznaczone [Demo] to projekty demonstracyjne pokazujące nasze możliwości techniczne",
+    "categories": {
+      "ecommerce": "E-commerce",
+      "website": "Strona www",
+      "chatbot": "Chatbot",
+      "ai_solution": "Rozwiązanie AI",
+      "mobile_app": "Aplikacja mobilna"
+    },
+    "projects": {
+      "electronics_shop": {
+        "title": "[Demo] Sklep internetowy z elektroniką",
+        "description": "Projekt demonstracyjny: w pełni funkcjonalny sklep internetowy z integracją płatności, systemem filtrowania i kontem osobistym"
+      },
+      "restaurant_bot": {
+        "title": "[Demo] Bot Telegram dla restauracji",
+        "description": "Projekt demonstracyjny: bot do przyjmowania zamówień i rezerwacji stolików z integracją CRM"
+      },
+      "corporate_website": {
+        "title": "[Demo] Strona korporacyjna",
+        "description": "Projekt demonstracyjny: wielojęzyczna strona firmowa z systemem zarządzania treścią"
+      },
+      "ai_assistant": {
+        "title": "[Demo] Asystent AI",
+        "description": "Projekt demonstracyjny: inteligentny asystent do przetwarzania zapytań i automatyzacji procesów"
+      },
+      "fitness_app": {
+        "title": "[Demo] Aplikacja fitness",
+        "description": "Projekt demonstracyjny: wieloplatformowa aplikacja do śledzenia treningów i odżywiania"
+      },
+      "education_platform": {
+        "title": "[Demo] Platforma edukacyjna",
+        "description": "Projekt demonstracyjny: platforma online do nauki zdalnej z kursami wideo"
+      }
+    }
   },
   "blog": {
     "title": "Blog",
