@@ -1,10 +1,11 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { ArrowUpRight, Globe, Bot, Cpu, TrendingUp } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import Image from "next/image";
+import { type Locale } from "@/i18n";
 
 const caseStudies = [
   {
@@ -73,6 +74,7 @@ const itemVariants = {
 
 export default function CaseStudiesSection() {
   const t = useTranslations("cases");
+  const locale = useLocale() as Locale;
 
   return (
     <section className="section bg-gradient-to-b from-white to-gray-50 overflow-hidden">
@@ -168,6 +170,7 @@ export default function CaseStudiesSection() {
                     {/* Link */}
                     <Link
                       href={`/portfolio/${study.slug}`}
+                      locale={locale}
                       className="inline-flex items-center gap-2 text-primary font-medium hover:gap-3 transition-all group/link"
                     >
                       {t("view_case")}
@@ -190,6 +193,7 @@ export default function CaseStudiesSection() {
         >
           <Link
             href="/portfolio"
+            locale={locale}
             className="inline-flex items-center gap-2 px-6 py-3 bg-primary/5 hover:bg-primary/10 text-primary font-medium rounded-full transition-all duration-300 group"
           >
             {t("view_all")}

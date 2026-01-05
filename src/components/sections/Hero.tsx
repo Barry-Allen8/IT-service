@@ -4,7 +4,8 @@ import Button from "@/components/ui/Button";
 import { Link } from "@/i18n/navigation";
 import { ArrowRight, Sparkles, Code2, Cpu, Globe, Zap, Target, Rocket, Handshake, ShieldCheck } from "lucide-react";
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import { type Locale } from "@/i18n";
 
 // Animation variants
 const containerVariants = {
@@ -52,6 +53,7 @@ const orbitVariants = {
 
 export default function Hero() {
   const t = useTranslations("hero");
+  const locale = useLocale() as Locale;
 
   return (
     <section className="relative min-h-screen flex items-center overflow-hidden bg-gradient-to-br from-slate-50 via-blue-50/50 to-violet-50/30">
@@ -151,13 +153,13 @@ export default function Hero() {
               className="flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4"
             >
               <Button size="lg" className="btn-shine group" asChild>
-              <Link href="/contact">
+              <Link href="/contact" locale={locale}>
                   {t("cta_primary")}
                   <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </Link>
             </Button>
               <Button size="lg" variant="outline" className="group" asChild>
-                <Link href="#services">
+                <a href="#services">
                   {t("cta_secondary")}
                   <motion.span
                     className="inline-block"
@@ -166,7 +168,7 @@ export default function Hero() {
                   >
                     ↓
                   </motion.span>
-                </Link>
+                </a>
             </Button>
             </motion.div>
 

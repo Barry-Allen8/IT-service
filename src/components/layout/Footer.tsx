@@ -2,14 +2,16 @@
 
 import { Link } from "@/i18n/navigation";
 import { Facebook, Instagram, Linkedin, Mail, MapPin, Phone, ArrowRight, Send } from "lucide-react";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
 import { motion } from "framer-motion";
 import { useState } from "react";
+import { type Locale } from "@/i18n";
 
 export default function Footer() {
   const t = useTranslations("footer");
   const tNav = useTranslations("navigation");
   const tServices = useTranslations("services_menu");
+  const locale = useLocale() as Locale;
   const currentYear = new Date().getFullYear();
   const [email, setEmail] = useState("");
 
@@ -66,7 +68,7 @@ export default function Footer() {
             viewport={{ once: true }}
             transition={{ delay: 0.1 }}
           >
-            <Link href="/" className="inline-block mb-4">
+            <Link href="/" locale={locale} className="inline-block mb-4">
               <span className="text-2xl font-bold gradient-text">VektaDev</span>
             </Link>
             <p className="text-gray-400 mb-6 leading-relaxed">
@@ -115,6 +117,7 @@ export default function Footer() {
                 <li key={item.key}>
                   <Link
                     href={item.href}
+                    locale={locale}
                     className="text-gray-400 hover:text-white flex items-center gap-2 group transition-colors"
                   >
                     <ArrowRight className="w-4 h-4 opacity-0 -ml-6 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300" />
@@ -147,6 +150,7 @@ export default function Footer() {
                 <li key={item.key}>
                   <Link
                     href={item.href}
+                    locale={locale}
                     className="text-gray-400 hover:text-white flex items-center gap-2 group transition-colors"
                   >
                     <ArrowRight className="w-4 h-4 opacity-0 -ml-6 group-hover:opacity-100 group-hover:ml-0 transition-all duration-300" />
@@ -218,10 +222,10 @@ export default function Footer() {
               © {currentYear} VektaDev. {t("rights")}
             </p>
             <div className="flex flex-wrap justify-center gap-6 text-sm">
-              <Link href="/privacy" className="text-gray-500 hover:text-white transition-colors">
+              <Link href="/privacy" locale={locale} className="text-gray-500 hover:text-white transition-colors">
                 {t("privacy")}
               </Link>
-              <Link href="/terms" className="text-gray-500 hover:text-white transition-colors">
+              <Link href="/terms" locale={locale} className="text-gray-500 hover:text-white transition-colors">
                 {t("terms")}
               </Link>
             </div>

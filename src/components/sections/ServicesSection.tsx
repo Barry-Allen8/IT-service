@@ -4,7 +4,8 @@ import Card from "@/components/ui/Card";
 import { Globe, Bot, Brain, Smartphone, Cloud, Lightbulb, ArrowRight } from "lucide-react";
 import { Link } from "@/i18n/navigation";
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import { type Locale } from "@/i18n";
 
 const serviceKeys = [
   { key: "websites", icon: Globe, href: "/services/websites", color: "from-blue-500 to-cyan-500", shadow: "hover:shadow-blue-500/25" },
@@ -34,6 +35,7 @@ const itemVariants = {
 
 export default function ServicesSection() {
   const t = useTranslations("services");
+  const locale = useLocale() as Locale;
 
   return (
     <section id="services" className="section bg-gradient-to-b from-white to-gray-50/50 relative overflow-hidden">
@@ -75,7 +77,7 @@ export default function ServicesSection() {
             const Icon = service.icon;
             return (
               <motion.div key={service.key} variants={itemVariants}>
-                <Link href={service.href} className="block h-full">
+                <Link href={service.href} locale={locale} className="block h-full">
                   <Card className={`h-full cursor-pointer group bg-white border border-gray-100 hover:border-gray-200 shadow-sm hover:shadow-xl ${service.shadow} transition-all duration-300 hover:-translate-y-2`}>
                     {/* Icon with animated background */}
                     <div className="relative mb-6">

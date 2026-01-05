@@ -4,10 +4,12 @@ import Button from "@/components/ui/Button";
 import { Link } from "@/i18n/navigation";
 import { ArrowRight } from "lucide-react";
 import { motion } from "framer-motion";
-import { useTranslations } from "next-intl";
+import { useTranslations, useLocale } from "next-intl";
+import { type Locale } from "@/i18n";
 
 export default function CTASection() {
   const t = useTranslations("cta");
+  const locale = useLocale() as Locale;
 
   return (
     <section className="section relative overflow-hidden bg-gradient-to-r from-primary via-accent to-secondary">
@@ -52,7 +54,7 @@ export default function CTASection() {
               className="bg-white text-primary hover:bg-gray-100 btn-shine"
               asChild
             >
-              <Link href="/contact">
+              <Link href="/contact" locale={locale}>
                 {t("button_primary")}
                 <ArrowRight className="w-5 h-5" />
               </Link>
@@ -63,7 +65,7 @@ export default function CTASection() {
               className="border-white text-white hover:bg-white hover:text-primary"
               asChild
             >
-              <Link href="/portfolio">{t("button_secondary")}</Link>
+              <Link href="/portfolio" locale={locale}>{t("button_secondary")}</Link>
             </Button>
           </div>
         </motion.div>

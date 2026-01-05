@@ -97,7 +97,7 @@ export default function Header() {
       <div className="container">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link href="/" className="text-2xl font-bold gradient-text">
+          <Link href="/" locale={locale} className="text-2xl font-bold gradient-text">
             VektaDev
           </Link>
 
@@ -124,6 +124,7 @@ export default function Header() {
                       <Link
                         key={service.href}
                         href={service.href}
+                        locale={locale}
                         className={cn(
                           "block px-4 py-3 transition-colors",
                           isActive(service.href) 
@@ -140,6 +141,7 @@ export default function Header() {
             </div>
             <Link 
               href="/courses" 
+              locale={locale}
               className={cn(
                 "transition-colors font-medium",
                 isActive("/courses") ? "text-primary" : "hover:text-primary"
@@ -149,6 +151,7 @@ export default function Header() {
             </Link>
             <Link 
               href="/portfolio" 
+              locale={locale}
               className={cn(
                 "transition-colors font-medium",
                 isActive("/portfolio") ? "text-primary" : "hover:text-primary"
@@ -158,6 +161,7 @@ export default function Header() {
             </Link>
             <Link 
               href="/about" 
+              locale={locale}
               className={cn(
                 "transition-colors font-medium",
                 isActive("/about") ? "text-primary" : "hover:text-primary"
@@ -167,6 +171,7 @@ export default function Header() {
             </Link>
             <Link 
               href="/blog" 
+              locale={locale}
               className={cn(
                 "transition-colors font-medium",
                 isActive("/blog") ? "text-primary" : "hover:text-primary"
@@ -176,6 +181,7 @@ export default function Header() {
             </Link>
             <Link 
               href="/contact" 
+              locale={locale}
               className={cn(
                 "transition-colors font-medium",
                 isActive("/contact") ? "text-primary" : "hover:text-primary"
@@ -188,7 +194,7 @@ export default function Header() {
           {/* Right side: CTA + Language */}
           <div className="hidden lg:flex items-center gap-4">
             <Button asChild>
-              <Link href="/contact">{t("consultation")}</Link>
+              <Link href="/contact" locale={locale}>{t("consultation")}</Link>
             </Button>
 
             {/* Modern Language Switcher - Pill Style */}
@@ -308,6 +314,7 @@ export default function Header() {
                     <Link
                       key={service.href}
                       href={service.href}
+                      locale={locale}
                       className={cn(
                         "block py-2.5 px-3 rounded-lg transition-all duration-200",
                         isActive(service.href) 
@@ -326,6 +333,7 @@ export default function Header() {
             {/* Other Links */}
             <Link 
               href="/courses" 
+              locale={locale}
               className={cn(
                 "block py-3 font-medium border-b border-gray-100 transition-colors",
                 isActive("/courses") ? "text-primary" : "hover:text-primary"
@@ -336,6 +344,7 @@ export default function Header() {
             </Link>
             <Link 
               href="/portfolio" 
+              locale={locale}
               className={cn(
                 "block py-3 font-medium border-b border-gray-100 transition-colors",
                 isActive("/portfolio") ? "text-primary" : "hover:text-primary"
@@ -346,6 +355,7 @@ export default function Header() {
             </Link>
             <Link 
               href="/about" 
+              locale={locale}
               className={cn(
                 "block py-3 font-medium border-b border-gray-100 transition-colors",
                 isActive("/about") ? "text-primary" : "hover:text-primary"
@@ -356,6 +366,7 @@ export default function Header() {
             </Link>
             <Link 
               href="/blog" 
+              locale={locale}
               className={cn(
                 "block py-3 font-medium border-b border-gray-100 transition-colors",
                 isActive("/blog") ? "text-primary" : "hover:text-primary"
@@ -366,6 +377,7 @@ export default function Header() {
             </Link>
             <Link 
               href="/contact" 
+              locale={locale}
               className={cn(
                 "block py-3 font-medium border-b border-gray-100 transition-colors",
                 isActive("/contact") ? "text-primary" : "hover:text-primary"
@@ -376,7 +388,7 @@ export default function Header() {
             </Link>
             
             <Button className="w-full mt-4" asChild>
-              <Link href="/contact" onClick={() => setIsMobileMenuOpen(false)}>
+              <Link href="/contact" locale={locale} onClick={() => setIsMobileMenuOpen(false)}>
                 {t("consultation")}
               </Link>
             </Button>
