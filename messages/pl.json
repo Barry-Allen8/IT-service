@@ -166,7 +166,7 @@
     "services_title": "Usługi",
     "company_title": "Firma",
     "contact_title": "Kontakt",
-    "address": "Warszawa, Polska",
+    "address": "ul. Michała Kajki 10-12, 10-547 Olsztyn, Polska",
     "working_hours": "Pn-Pt: 9:00 - 18:00",
     "weekend": "Sb-Nd: Wolne",
     "rights": "Wszelkie prawa zastrzeżone.",
@@ -433,7 +433,7 @@
     "protection": "4. Ochrona danych",
     "protection_text": "Podejmujemy wszelkie niezbędne środki w celu ochrony danych osobowych.",
     "contact_title": "5. Kontakt",
-    "contact_text": "W sprawach dotyczących polityki prywatności prosimy o kontakt: contact@vektadev.com"
+    "contact_text": "W sprawach dotyczących polityki prywatności prosimy o kontakt: vektadev@gmail.com"
   },
   "terms": {
     "title": "Warunki użytkowania",
@@ -448,7 +448,7 @@
     "changes": "5. Zmiany warunków",
     "changes_text": "Zastrzegamy sobie prawo do zmiany niniejszych warunków w dowolnym momencie.",
     "contact_title": "6. Kontakt",
-    "contact_text": "W sprawach dotyczących warunków użytkowania prosimy o kontakt: contact@vektadev.com"
+    "contact_text": "W sprawach dotyczących warunków użytkowania prosimy o kontakt: vektadev@gmail.com"
   },
   "common": {
     "loading": "Ładowanie...",

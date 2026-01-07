@@ -166,7 +166,7 @@
     "services_title": "Dienstleistungen",
     "company_title": "Unternehmen",
     "contact_title": "Kontakt",
-    "address": "Warschau, Polen",
+    "address": "ul. Michała Kajki 10-12, 10-547 Olsztyn, Polen",
     "working_hours": "Mo-Fr: 9:00 - 18:00 Uhr",
     "weekend": "Sa-So: Geschlossen",
     "rights": "Alle Rechte vorbehalten.",
@@ -433,7 +433,7 @@
     "protection": "4. Datenschutz",
     "protection_text": "Wir ergreifen alle notwendigen Maßnahmen zum Schutz personenbezogener Daten.",
     "contact_title": "5. Kontakt",
-    "contact_text": "Bei Fragen zur Datenschutzrichtlinie kontaktieren Sie bitte: contact@vektadev.com"
+    "contact_text": "Bei Fragen zur Datenschutzrichtlinie kontaktieren Sie bitte: vektadev@gmail.com"
   },
   "terms": {
     "title": "Nutzungsbedingungen",
@@ -448,7 +448,7 @@
     "changes": "5. Änderungen der Bedingungen",
     "changes_text": "Wir behalten uns das Recht vor, diese Bedingungen jederzeit zu ändern.",
     "contact_title": "6. Kontakt",
-    "contact_text": "Bei Fragen zu den Nutzungsbedingungen kontaktieren Sie bitte: contact@vektadev.com"
+    "contact_text": "Bei Fragen zu den Nutzungsbedingungen kontaktieren Sie bitte: vektadev@gmail.com"
   },
   "common": {
     "loading": "Wird geladen...",

@@ -50,8 +50,11 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">{t("phone")}</h3>
-                      <a href="tel:+48123456789" className="text-muted hover:text-primary transition-colors">
-                        +48 123 456 789
+                      <a href="tel:+48537890776" className="text-muted hover:text-primary transition-colors block">
+                        +48 537 890 776
+                      </a>
+                      <a href="tel:+48733264543" className="text-muted hover:text-primary transition-colors block">
+                        +48 733 264 543
                       </a>
                     </div>
                   </div>
@@ -64,8 +67,8 @@ export default function ContactPage() {
                     </div>
                     <div>
                       <h3 className="font-semibold mb-1">{t("email")}</h3>
-                      <a href="mailto:info@vektadev.com" className="text-muted hover:text-primary transition-colors">
-                        info@vektadev.com
+                      <a href="mailto:vektadev@gmail.com" className="text-muted hover:text-primary transition-colors">
+                        vektadev@gmail.com
                       </a>
                     </div>
                   </div>
