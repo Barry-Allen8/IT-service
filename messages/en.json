@@ -224,13 +224,88 @@
     "ai_solutions": {
       "title": "AI Solutions",
       "description": "We implement artificial intelligence to optimize business processes",
-      "hero_description": "Implementing artificial intelligence to optimize business processes",
+      "hero_title": "Transform your business with practical AI solutions",
+      "hero_subtitle": "From idea to implementation — AI that actually works",
+      "hero_description": "ChatGPT integration, AI assistants, and process automation tailored to your business. No empty promises — just concrete results.",
+      "hero_cta": "Discuss AI for your business",
       "features": ["ChatGPT integration", "AI assistants", "Process automation", "Data analytics"],
       "benefits": {
-        "automation": { "title": "Automation", "description": "Automation of routine tasks and processes" },
-        "analytics": { "title": "Analytics", "description": "Deep data analysis and forecasting" },
-        "personalization": { "title": "Personalization", "description": "Individual approach to each client" },
-        "efficiency": { "title": "Efficiency", "description": "Increasing team productivity" }
+        "automation": { "title": "Automation", "description": "Automation of routine tasks and processes — hours of work turned into minutes" },
+        "analytics": { "title": "Analytics", "description": "Deep data analysis and forecasting based on real data" },
+        "personalization": { "title": "Personalization", "description": "Individual approach to each client at scale" },
+        "efficiency": { "title": "Efficiency", "description": "Increase team productivity by 30-50%" }
+      },
+      "who_its_for": {
+        "title": "Is AI right for your business?",
+        "best_for_title": "Best for:",
+        "best_for": [
+          "Businesses with repetitive manual processes eating up time",
+          "Companies wanting to leverage ChatGPT/Claude in practice",
+          "Teams drowning in data analysis and reports",
+          "Customer service departments seeking optimization"
+        ],
+        "not_for_title": "Not for:",
+        "not_for": [
+          "Those expecting magic solutions overnight",
+          "Businesses without a clear process to automate"
+        ]
+      },
+      "problem_solution": {
+        "title": "From problem to competitive advantage",
+        "problem_title": "The Problem",
+        "problem_text": "Manual processes consume hours of your team's work. Competitors are already using AI for faster decisions and better customer service. Every day of delay is lost advantage.",
+        "solution_title": "Our Solution",
+        "solution_text": "We design and implement AI solutions tailored to your workflow. ChatGPT/Claude integration, process automation, intelligent assistants — everything customized to your needs.",
+        "result_title": "The Result",
+        "result_text": "Hours saved weekly, faster and smarter decisions, edge over competitors. Measurable results you see within the first weeks."
+      },
+      "trust_signals": {
+        "title": "Why Choose Us",
+        "items": [
+          { "title": "Practical, not experimental AI", "description": "We implement proven solutions that work from day one" },
+          { "title": "Data privacy first", "description": "Your data stays yours. We design with security and GDPR compliance in mind" },
+          { "title": "Training included", "description": "Your team will learn to effectively use the new tools" },
+          { "title": "Focus on measurable results", "description": "Before implementation, we define KPIs to measure actual ROI" }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "What kind of AI can you implement?",
+            "answer": "We specialize in language model integration (ChatGPT, Claude), creating AI assistants for customer service, automating document analysis, generating reports and summaries, and automating repetitive business processes."
+          },
+          {
+            "question": "Do we need technical knowledge?",
+            "answer": "No. We design user-friendly solutions for non-technical users. After implementation, we train your team, and the interfaces are intuitive and simple to use."
+          },
+          {
+            "question": "How long until we see results?",
+            "answer": "First implementations take 2-4 weeks. Concrete time savings and improvements are visible within the first month of use."
+          },
+          {
+            "question": "Is our data secure?",
+            "answer": "Absolutely. We design with data privacy in mind. We can implement solutions running locally without sending data to external servers. All implementations are GDPR compliant."
+          },
+          {
+            "question": "What's the ROI timeline?",
+            "answer": "ROI depends on the scale of automation, but most clients see returns within 2-4 months through time savings and increased process efficiency."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Ready for AI in your business?",
+        "description": "Book a free consultation. We'll analyze your processes and show you where AI will bring the greatest benefits.",
+        "button": "Discuss AI for your business"
+      },
+      "use_cases": {
+        "title": "How businesses use our AI solutions",
+        "cases": [
+          { "title": "Customer service automation", "description": "AI assistant handles 80% of inquiries, working 24/7" },
+          { "title": "Document analysis", "description": "Automatic extraction of data from invoices, contracts, and forms" },
+          { "title": "Content generation", "description": "Creating product descriptions, emails, and reports in seconds" },
+          { "title": "Decision support", "description": "Data analysis and AI-based recommendations" }
+        ]
       }
     },
     "consulting": {

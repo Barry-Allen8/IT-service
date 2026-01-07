@@ -224,13 +224,88 @@
     "ai_solutions": {
       "title": "KI-Lösungen",
       "description": "Wir implementieren künstliche Intelligenz zur Optimierung von Geschäftsprozessen",
-      "hero_description": "Implementierung künstlicher Intelligenz zur Optimierung von Geschäftsprozessen",
+      "hero_title": "Transformieren Sie Ihr Unternehmen mit praktischen KI-Lösungen",
+      "hero_subtitle": "Von der Idee zur Implementierung — KI, die wirklich funktioniert",
+      "hero_description": "ChatGPT-Integration, KI-Assistenten und Prozessautomatisierung, maßgeschneidert für Ihr Unternehmen. Keine leeren Versprechen — nur konkrete Ergebnisse.",
+      "hero_cta": "KI für Ihr Unternehmen besprechen",
       "features": ["ChatGPT-Integration", "KI-Assistenten", "Prozessautomatisierung", "Datenanalyse"],
       "benefits": {
-        "automation": { "title": "Automatisierung", "description": "Automatisierung von Routineaufgaben und Prozessen" },
-        "analytics": { "title": "Analytik", "description": "Tiefe Datenanalyse und Prognosen" },
-        "personalization": { "title": "Personalisierung", "description": "Individueller Ansatz für jeden Kunden" },
-        "efficiency": { "title": "Effizienz", "description": "Steigerung der Teamproduktivität" }
+        "automation": { "title": "Automatisierung", "description": "Automatisierung von Routineaufgaben und Prozessen — Stunden werden zu Minuten" },
+        "analytics": { "title": "Analytik", "description": "Tiefe Datenanalyse und Prognosen basierend auf echten Daten" },
+        "personalization": { "title": "Personalisierung", "description": "Individueller Ansatz für jeden Kunden in großem Maßstab" },
+        "efficiency": { "title": "Effizienz", "description": "Steigerung der Teamproduktivität um 30-50%" }
+      },
+      "who_its_for": {
+        "title": "Ist KI das Richtige für Ihr Unternehmen?",
+        "best_for_title": "Ideal für:",
+        "best_for": [
+          "Unternehmen mit sich wiederholenden manuellen Prozessen, die Zeit fressen",
+          "Firmen, die ChatGPT/Claude praktisch nutzen möchten",
+          "Teams, die in Datenanalyse und Berichten ertrinken",
+          "Kundenservice-Abteilungen, die Optimierung suchen"
+        ],
+        "not_for_title": "Nicht geeignet für:",
+        "not_for": [
+          "Diejenigen, die Wunderlösungen über Nacht erwarten",
+          "Unternehmen ohne klar definierten Prozess zur Automatisierung"
+        ]
+      },
+      "problem_solution": {
+        "title": "Vom Problem zum Wettbewerbsvorteil",
+        "problem_title": "Das Problem",
+        "problem_text": "Manuelle Prozesse verschlingen Stunden der Arbeit Ihres Teams. Wettbewerber nutzen bereits KI für schnellere Entscheidungen und besseren Kundenservice. Jeder Tag Verzögerung ist verlorener Vorsprung.",
+        "solution_title": "Unsere Lösung",
+        "solution_text": "Wir entwerfen und implementieren KI-Lösungen, die auf Ihren Workflow zugeschnitten sind. ChatGPT/Claude-Integration, Prozessautomatisierung, intelligente Assistenten — alles an Ihre Bedürfnisse angepasst.",
+        "result_title": "Das Ergebnis",
+        "result_text": "Wöchentlich eingesparte Stunden, schnellere und bessere Entscheidungen, Vorsprung vor der Konkurrenz. Messbare Ergebnisse, die Sie bereits in den ersten Wochen sehen."
+      },
+      "trust_signals": {
+        "title": "Warum uns wählen",
+        "items": [
+          { "title": "Praktische, nicht experimentelle KI", "description": "Wir implementieren bewährte Lösungen, die vom ersten Tag an funktionieren" },
+          { "title": "Datenschutz an erster Stelle", "description": "Ihre Daten bleiben Ihre. Wir entwickeln mit Sicherheit und DSGVO-Konformität im Blick" },
+          { "title": "Schulung inklusive", "description": "Ihr Team lernt die neuen Tools effektiv zu nutzen" },
+          { "title": "Fokus auf messbare Ergebnisse", "description": "Vor der Implementierung definieren wir KPIs, um den tatsächlichen ROI zu messen" }
+        ]
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "items": [
+          {
+            "question": "Welche KI-Lösungen können Sie implementieren?",
+            "answer": "Wir spezialisieren uns auf die Integration von Sprachmodellen (ChatGPT, Claude), die Erstellung von KI-Assistenten für den Kundenservice, die Automatisierung der Dokumentenanalyse, die Generierung von Berichten und Zusammenfassungen sowie die Automatisierung sich wiederholender Geschäftsprozesse."
+          },
+          {
+            "question": "Brauchen wir technisches Wissen?",
+            "answer": "Nein. Wir entwickeln benutzerfreundliche Lösungen für nicht-technische Anwender. Nach der Implementierung schulen wir Ihr Team, und die Oberflächen sind intuitiv und einfach zu bedienen."
+          },
+          {
+            "question": "Wie schnell sehen wir Ergebnisse?",
+            "answer": "Erste Implementierungen dauern 2-4 Wochen. Konkrete Zeiteinsparungen und Verbesserungen sind bereits im ersten Nutzungsmonat sichtbar."
+          },
+          {
+            "question": "Sind unsere Daten sicher?",
+            "answer": "Absolut. Wir entwickeln mit Datenschutz im Blick. Wir können Lösungen implementieren, die lokal laufen, ohne Daten an externe Server zu senden. Alle Implementierungen sind DSGVO-konform."
+          },
+          {
+            "question": "Wie ist die ROI-Timeline?",
+            "answer": "Der ROI hängt vom Automatisierungsumfang ab, aber die meisten Kunden sehen den Return innerhalb von 2-4 Monaten durch Zeiteinsparungen und erhöhte Prozesseffizienz."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Bereit für KI in Ihrem Unternehmen?",
+        "description": "Buchen Sie eine kostenlose Beratung. Wir analysieren Ihre Prozesse und zeigen Ihnen, wo KI den größten Nutzen bringt.",
+        "button": "KI für Ihr Unternehmen besprechen"
+      },
+      "use_cases": {
+        "title": "Wie Unternehmen unsere KI-Lösungen nutzen",
+        "cases": [
+          { "title": "Kundenservice-Automatisierung", "description": "KI-Assistent bearbeitet 80% der Anfragen, arbeitet 24/7" },
+          { "title": "Dokumentenanalyse", "description": "Automatische Extraktion von Daten aus Rechnungen, Verträgen und Formularen" },
+          { "title": "Content-Generierung", "description": "Erstellung von Produktbeschreibungen, E-Mails und Berichten in Sekunden" },
+          { "title": "Entscheidungsunterstützung", "description": "Datenanalyse und KI-basierte Empfehlungen" }
+        ]
       }
     },
     "consulting": {

@@ -224,13 +224,88 @@
     "ai_solutions": {
       "title": "Rozwiązania AI",
       "description": "Wdrażamy sztuczną inteligencję dla optymalizacji procesów biznesowych",
-      "hero_description": "Wdrożenie sztucznej inteligencji dla optymalizacji procesów biznesowych",
+      "hero_title": "Przekształć swój biznes dzięki praktycznym rozwiązaniom AI",
+      "hero_subtitle": "Od pomysłu do wdrożenia — AI, które naprawdę działa",
+      "hero_description": "Integracja ChatGPT, asystenci AI i automatyzacja procesów dostosowane do Twojego biznesu. Bez pustych obietnic — tylko konkretne rezultaty.",
+      "hero_cta": "Omów AI dla Twojej firmy",
       "features": ["Integracja ChatGPT", "Asystenci AI", "Automatyzacja procesów", "Analiza danych"],
       "benefits": {
-        "automation": { "title": "Automatyzacja", "description": "Automatyzacja rutynowych zadań i procesów" },
-        "analytics": { "title": "Analityka", "description": "Głęboka analiza danych i prognozowanie" },
-        "personalization": { "title": "Personalizacja", "description": "Indywidualne podejście do każdego klienta" },
-        "efficiency": { "title": "Efektywność", "description": "Zwiększenie produktywności zespołu" }
+        "automation": { "title": "Automatyzacja", "description": "Automatyzacja rutynowych zadań i procesów — godziny pracy zamienione w minuty" },
+        "analytics": { "title": "Analityka", "description": "Głęboka analiza danych i prognozowanie na podstawie rzeczywistych danych" },
+        "personalization": { "title": "Personalizacja", "description": "Indywidualne podejście do każdego klienta w skali" },
+        "efficiency": { "title": "Efektywność", "description": "Zwiększenie produktywności zespołu o 30-50%" }
+      },
+      "who_its_for": {
+        "title": "Czy AI jest dla Twojej firmy?",
+        "best_for_title": "Idealne dla:",
+        "best_for": [
+          "Firm z powtarzalnymi procesami manualnymi pochłaniającymi czas",
+          "Przedsiębiorstw chcących wykorzystać ChatGPT/Claude w praktyce",
+          "Zespołów tonących w analizie danych i raportach",
+          "Działów obsługi klienta szukających optymalizacji"
+        ],
+        "not_for_title": "Nie dla:",
+        "not_for": [
+          "Oczekujących magicznych rozwiązań z dnia na dzień",
+          "Firm bez jasno zdefiniowanego procesu do automatyzacji"
+        ]
+      },
+      "problem_solution": {
+        "title": "Od problemu do przewagi konkurencyjnej",
+        "problem_title": "Problem",
+        "problem_text": "Ręczne procesy pochłaniają godziny pracy Twojego zespołu. Konkurencja już wykorzystuje AI do szybszych decyzji i lepszej obsługi klienta. Każdy dzień zwłoki to utracona przewaga.",
+        "solution_title": "Nasze rozwiązanie",
+        "solution_text": "Projektujemy i wdrażamy rozwiązania AI dopasowane do Twojego workflow. Integracja z ChatGPT/Claude, automatyzacja procesów, inteligentni asystenci — wszystko dostosowane do Twoich potrzeb.",
+        "result_title": "Rezultat",
+        "result_text": "Oszczędność godzin pracy tygodniowo, szybsze i trafniejsze decyzje, przewaga nad konkurencją. Mierzalne wyniki, które widzisz już w pierwszych tygodniach."
+      },
+      "trust_signals": {
+        "title": "Dlaczego my",
+        "items": [
+          { "title": "Praktyczne, nie eksperymentalne AI", "description": "Wdrażamy sprawdzone rozwiązania, które działają od pierwszego dnia" },
+          { "title": "Prywatność danych przede wszystkim", "description": "Twoje dane zostają Twoje. Projektujemy z myślą o bezpieczeństwie i zgodności z RODO" },
+          { "title": "Szkolenie w cenie", "description": "Twój zespół nauczy się efektywnie korzystać z nowych narzędzi" },
+          { "title": "Fokus na mierzalne rezultaty", "description": "Przed wdrożeniem definiujemy KPI, aby móc zmierzyć rzeczywisty ROI" }
+        ]
+      },
+      "faq": {
+        "title": "Najczęściej zadawane pytania",
+        "items": [
+          {
+            "question": "Jakie rozwiązania AI możecie wdrożyć?",
+            "answer": "Specjalizujemy się w integracji modeli językowych (ChatGPT, Claude), tworzeniu asystentów AI do obsługi klienta, automatyzacji analizy dokumentów, generowaniu raportów i podsumowań, oraz automatyzacji powtarzalnych procesów biznesowych."
+          },
+          {
+            "question": "Czy potrzebujemy wiedzy technicznej?",
+            "answer": "Nie. Projektujemy rozwiązania przyjazne dla użytkowników bez wiedzy technicznej. Po wdrożeniu przeprowadzamy szkolenie Twojego zespołu, a interfejsy są intuicyjne i proste w obsłudze."
+          },
+          {
+            "question": "Jak szybko zobaczymy rezultaty?",
+            "answer": "Pierwsze wdrożenia realizujemy w 2-4 tygodnie. Konkretne oszczędności czasu i usprawnienia są widoczne już w pierwszym miesiącu użytkowania."
+          },
+          {
+            "question": "Czy nasze dane są bezpieczne?",
+            "answer": "Absolutnie. Projektujemy z myślą o prywatności danych. Możemy wdrożyć rozwiązania działające lokalnie, bez przesyłania danych do zewnętrznych serwerów. Wszystkie wdrożenia są zgodne z RODO."
+          },
+          {
+            "question": "Jaki jest czas zwrotu z inwestycji?",
+            "answer": "ROI zależy od skali automatyzacji, ale większość klientów widzi zwrot w ciągu 2-4 miesięcy dzięki oszczędnościom czasu i zwiększonej efektywności procesów."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Gotowy na AI w Twojej firmie?",
+        "description": "Umów się na bezpłatną konsultację. Przeanalizujemy Twoje procesy i pokażemy, gdzie AI przyniesie największe korzyści.",
+        "button": "Omów AI dla Twojej firmy"
+      },
+      "use_cases": {
+        "title": "Jak firmy wykorzystują nasze rozwiązania AI",
+        "cases": [
+          { "title": "Automatyzacja obsługi klienta", "description": "Asystent AI odpowiada na 80% zapytań, pracując 24/7" },
+          { "title": "Analiza dokumentów", "description": "Automatyczne wyciąganie danych z faktur, umów i formularzy" },
+          { "title": "Generowanie treści", "description": "Tworzenie opisów produktów, emaili i raportów w sekundy" },
+          { "title": "Wsparcie decyzji", "description": "Analiza danych i rekomendacje oparte na AI" }
+        ]
       }
     },
     "consulting": {

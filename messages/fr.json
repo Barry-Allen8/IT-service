@@ -224,13 +224,88 @@
     "ai_solutions": {
       "title": "Solutions IA",
       "description": "Nous implémentons l'intelligence artificielle pour optimiser les processus métier",
-      "hero_description": "Implémentation de l'intelligence artificielle pour optimiser les processus métier",
+      "hero_title": "Transformez votre entreprise avec des solutions IA pratiques",
+      "hero_subtitle": "De l'idée à l'implémentation — l'IA qui fonctionne vraiment",
+      "hero_description": "Intégration ChatGPT, assistants IA et automatisation des processus adaptés à votre entreprise. Pas de promesses vides — seulement des résultats concrets.",
+      "hero_cta": "Discuter de l'IA pour votre entreprise",
       "features": ["Intégration ChatGPT", "Assistants IA", "Automatisation des processus", "Analyse de données"],
       "benefits": {
-        "automation": { "title": "Automatisation", "description": "Automatisation des tâches et processus routiniers" },
-        "analytics": { "title": "Analytique", "description": "Analyse approfondie des données et prévisions" },
-        "personalization": { "title": "Personnalisation", "description": "Approche individuelle pour chaque client" },
-        "efficiency": { "title": "Efficacité", "description": "Augmentation de la productivité de l'équipe" }
+        "automation": { "title": "Automatisation", "description": "Automatisation des tâches et processus routiniers — des heures de travail transformées en minutes" },
+        "analytics": { "title": "Analytique", "description": "Analyse approfondie des données et prévisions basées sur des données réelles" },
+        "personalization": { "title": "Personnalisation", "description": "Approche individuelle pour chaque client à grande échelle" },
+        "efficiency": { "title": "Efficacité", "description": "Augmentation de la productivité de l'équipe de 30-50%" }
+      },
+      "who_its_for": {
+        "title": "L'IA est-elle faite pour votre entreprise ?",
+        "best_for_title": "Idéal pour :",
+        "best_for": [
+          "Les entreprises avec des processus manuels répétitifs qui prennent du temps",
+          "Les sociétés souhaitant exploiter ChatGPT/Claude en pratique",
+          "Les équipes noyées dans l'analyse de données et les rapports",
+          "Les services client cherchant à s'optimiser"
+        ],
+        "not_for_title": "Pas pour :",
+        "not_for": [
+          "Ceux qui attendent des solutions magiques du jour au lendemain",
+          "Les entreprises sans processus clairement défini à automatiser"
+        ]
+      },
+      "problem_solution": {
+        "title": "Du problème à l'avantage concurrentiel",
+        "problem_title": "Le Problème",
+        "problem_text": "Les processus manuels consomment des heures de travail de votre équipe. Les concurrents utilisent déjà l'IA pour des décisions plus rapides et un meilleur service client. Chaque jour de retard est un avantage perdu.",
+        "solution_title": "Notre Solution",
+        "solution_text": "Nous concevons et implémentons des solutions IA adaptées à votre workflow. Intégration ChatGPT/Claude, automatisation des processus, assistants intelligents — tout personnalisé selon vos besoins.",
+        "result_title": "Le Résultat",
+        "result_text": "Des heures économisées chaque semaine, des décisions plus rapides et plus intelligentes, une longueur d'avance sur la concurrence. Des résultats mesurables que vous voyez dès les premières semaines."
+      },
+      "trust_signals": {
+        "title": "Pourquoi nous choisir",
+        "items": [
+          { "title": "IA pratique, pas expérimentale", "description": "Nous implémentons des solutions éprouvées qui fonctionnent dès le premier jour" },
+          { "title": "Confidentialité des données d'abord", "description": "Vos données restent les vôtres. Nous concevons avec la sécurité et la conformité RGPD en tête" },
+          { "title": "Formation incluse", "description": "Votre équipe apprendra à utiliser efficacement les nouveaux outils" },
+          { "title": "Focus sur les résultats mesurables", "description": "Avant l'implémentation, nous définissons des KPIs pour mesurer le ROI réel" }
+        ]
+      },
+      "faq": {
+        "title": "Questions fréquentes",
+        "items": [
+          {
+            "question": "Quels types d'IA pouvez-vous implémenter ?",
+            "answer": "Nous nous spécialisons dans l'intégration de modèles de langage (ChatGPT, Claude), la création d'assistants IA pour le service client, l'automatisation de l'analyse de documents, la génération de rapports et résumés, et l'automatisation des processus métier répétitifs."
+          },
+          {
+            "question": "Avons-nous besoin de connaissances techniques ?",
+            "answer": "Non. Nous concevons des solutions conviviales pour les utilisateurs non techniques. Après l'implémentation, nous formons votre équipe, et les interfaces sont intuitives et simples à utiliser."
+          },
+          {
+            "question": "Combien de temps avant de voir des résultats ?",
+            "answer": "Les premières implémentations prennent 2-4 semaines. Les économies de temps concrètes et les améliorations sont visibles dès le premier mois d'utilisation."
+          },
+          {
+            "question": "Nos données sont-elles sécurisées ?",
+            "answer": "Absolument. Nous concevons avec la confidentialité des données en tête. Nous pouvons implémenter des solutions fonctionnant localement sans envoyer de données à des serveurs externes. Toutes les implémentations sont conformes au RGPD."
+          },
+          {
+            "question": "Quel est le délai de retour sur investissement ?",
+            "answer": "Le ROI dépend de l'ampleur de l'automatisation, mais la plupart des clients voient un retour en 2-4 mois grâce aux économies de temps et à l'efficacité accrue des processus."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Prêt pour l'IA dans votre entreprise ?",
+        "description": "Réservez une consultation gratuite. Nous analyserons vos processus et vous montrerons où l'IA apportera les plus grands bénéfices.",
+        "button": "Discuter de l'IA pour votre entreprise"
+      },
+      "use_cases": {
+        "title": "Comment les entreprises utilisent nos solutions IA",
+        "cases": [
+          { "title": "Automatisation du service client", "description": "L'assistant IA gère 80% des demandes, travaillant 24/7" },
+          { "title": "Analyse de documents", "description": "Extraction automatique de données depuis factures, contrats et formulaires" },
+          { "title": "Génération de contenu", "description": "Création de descriptions de produits, emails et rapports en secondes" },
+          { "title": "Aide à la décision", "description": "Analyse de données et recommandations basées sur l'IA" }
+        ]
       }
     },
     "consulting": {
