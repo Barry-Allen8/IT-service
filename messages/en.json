@@ -139,13 +139,86 @@
     "chatbots": {
       "title": "Chatbots",
       "description": "Automate customer communication with intelligent bots",
-      "hero_description": "Automating customer communication with intelligent bots",
+      "hero_title": "Automate Customer Support and Save Time",
+      "hero_subtitle": "24/7 availability without hiring additional staff",
+      "hero_description": "Intelligent chatbots for Telegram, WhatsApp, and your website. Answer customer questions, take orders and bookings — even while you sleep.",
+      "hero_cta": "Get chatbot consultation",
       "features": ["Telegram bots", "Viber/WhatsApp bots", "Website chats", "CRM integration"],
       "benefits": {
         "support": { "title": "24/7 Support", "description": "Bot works around the clock without breaks and weekends" },
         "instant": { "title": "Instant responses", "description": "Clients get answers in seconds" },
         "cost": { "title": "Cost reduction", "description": "Savings on support staff" },
         "integration": { "title": "CRM integration", "description": "Automatic lead addition to the system" }
+      },
+      "who_its_for": {
+        "title": "Is a chatbot right for you?",
+        "best_for_title": "Best for:",
+        "best_for": [
+          "Businesses with repetitive customer questions",
+          "E-commerce stores needing order status updates",
+          "Restaurants for table reservations",
+          "Service companies for appointment booking"
+        ],
+        "not_for_title": "Not the best fit for:",
+        "not_for": [
+          "Complex B2B sales requiring human touch",
+          "One-time projects without ongoing customer support"
+        ]
+      },
+      "problem_solution": {
+        "title": "From overwhelmed to automated",
+        "problem_title": "The Problem",
+        "problem_text": "Your team is overwhelmed answering the same questions over and over. Customers message after hours and on weekends, but no one responds. Every missed inquiry is a lost sales opportunity.",
+        "solution_title": "Our Solution",
+        "solution_text": "AI-powered chatbot that automatically handles 80% of customer queries. Responds instantly, 24/7, on Telegram, WhatsApp, or your website chat. When it can't answer — it hands off to a human.",
+        "result_title": "The Result",
+        "result_text": "24/7 availability, faster responses, and lower support costs. Your team handles only complex issues while customers enjoy instant service."
+      },
+      "trust_signals": {
+        "title": "Why Choose Us",
+        "items": [
+          { "title": "Custom bot logic", "description": "No generic templates — the bot is tailored to your business and processes" },
+          { "title": "CRM/ERP integration", "description": "Bot connects to your systems — orders, bookings, customer database" },
+          { "title": "Analytics dashboard", "description": "Track conversation stats, popular questions, and bot performance" },
+          { "title": "Human handoff", "description": "When the bot can't answer, it smoothly transfers to your team" }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "Which platforms do you support?",
+            "answer": "We build chatbots for Telegram, WhatsApp, Viber, and website chat widgets. We can also integrate with Facebook Messenger or Instagram."
+          },
+          {
+            "question": "Can the bot integrate with my CRM?",
+            "answer": "Yes, we integrate chatbots with popular CRM and ERP systems. The bot can automatically add leads, update customer data, and create orders in your system."
+          },
+          {
+            "question": "How smart is the bot?",
+            "answer": "We offer both rule-based bots (scenarios and buttons) and AI bots with natural language understanding. The choice depends on your needs and budget."
+          },
+          {
+            "question": "What happens when the bot can't answer?",
+            "answer": "The bot can hand off to a human, save the question for later response, or ask the customer to call. You decide how it should work."
+          },
+          {
+            "question": "How much does maintenance cost?",
+            "answer": "Maintenance costs depend on the platform and message volume. Telegram is free, WhatsApp Business API has per-message fees. We'll provide detailed pricing during consultation."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Ready to automate?",
+        "description": "Book a free consultation. We'll show you how a chatbot can streamline customer service for your business.",
+        "button": "Get chatbot consultation"
+      },
+      "platforms": {
+        "title": "Platforms we support",
+        "telegram": "Telegram",
+        "whatsapp": "WhatsApp Business",
+        "viber": "Viber",
+        "website": "Website chat"
       }
     },
     "ai_solutions": {

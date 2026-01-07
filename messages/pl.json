@@ -139,13 +139,86 @@
     "chatbots": {
       "title": "Chatboty",
       "description": "Automatyzuj komunikację z klientami za pomocą inteligentnych botów",
-      "hero_description": "Automatyzacja komunikacji z klientami za pomocą inteligentnych botów",
+      "hero_title": "Automatyzuj Obsługę Klienta i Oszczędzaj Czas",
+      "hero_subtitle": "Dostępność 24/7 bez zatrudniania dodatkowego personelu",
+      "hero_description": "Inteligentne chatboty dla Telegram, WhatsApp i Twojej strony. Odpowiadają na pytania klientów, przyjmują zamówienia i rezerwacje — nawet gdy śpisz.",
+      "hero_cta": "Zamów konsultację",
       "features": ["Boty Telegram", "Boty Viber/WhatsApp", "Czaty na stronie", "Integracja z CRM"],
       "benefits": {
         "support": { "title": "Wsparcie 24/7", "description": "Bot pracuje całą dobę bez przerw i weekendów" },
         "instant": { "title": "Natychmiastowe odpowiedzi", "description": "Klienci otrzymują odpowiedzi w ciągu sekund" },
         "cost": { "title": "Redukcja kosztów", "description": "Oszczędność na pracownikach wsparcia" },
         "integration": { "title": "Integracja z CRM", "description": "Automatyczne dodawanie leadów do systemu" }
+      },
+      "who_its_for": {
+        "title": "Czy chatbot jest dla Ciebie?",
+        "best_for_title": "Idealne dla:",
+        "best_for": [
+          "Firm otrzymujących powtarzające się pytania od klientów",
+          "Sklepów internetowych potrzebujących informacji o statusie zamówień",
+          "Restauracji do obsługi rezerwacji stolików",
+          "Firm usługowych do umawiania wizyt i terminów"
+        ],
+        "not_for_title": "Nie najlepsze dla:",
+        "not_for": [
+          "Złożonej sprzedaży B2B wymagającej ludzkiego kontaktu",
+          "Jednorazowych projektów bez stałej obsługi klienta"
+        ]
+      },
+      "problem_solution": {
+        "title": "Od przeciążenia do automatyzacji",
+        "problem_title": "Problem",
+        "problem_text": "Twój zespół jest przeciążony odpowiadaniem na te same pytania. Klienci piszą po godzinach i w weekendy, ale nikt nie odpowiada. Każde nieodebrane zapytanie to stracona szansa sprzedaży.",
+        "solution_title": "Nasze rozwiązanie",
+        "solution_text": "Chatbot zasilany AI, który automatycznie obsługuje 80% zapytań klientów. Odpowiada natychmiast, 24/7, na Telegramie, WhatsApp lub czacie na stronie. Gdy nie zna odpowiedzi — przekazuje rozmowę do człowieka.",
+        "result_title": "Rezultat",
+        "result_text": "Dostępność przez całą dobę, szybsze odpowiedzi i niższe koszty obsługi. Twój zespół zajmuje się tylko złożonymi sprawami, a klienci są zadowoleni z błyskawicznej obsługi."
+      },
+      "trust_signals": {
+        "title": "Dlaczego my",
+        "items": [
+          { "title": "Indywidualna logika bota", "description": "Żadnych gotowych szablonów — bot jest dostosowany do Twojego biznesu i procesów" },
+          { "title": "Integracja z CRM/ERP", "description": "Bot łączy się z Twoimi systemami — zamówienia, rezerwacje, baza klientów" },
+          { "title": "Panel analityczny", "description": "Śledź statystyki rozmów, najpopularniejsze pytania i efektywność bota" },
+          { "title": "Przekazanie do człowieka", "description": "Gdy bot nie zna odpowiedzi, płynnie przekazuje rozmowę do Twojego zespołu" }
+        ]
+      },
+      "faq": {
+        "title": "Najczęściej zadawane pytania",
+        "items": [
+          {
+            "question": "Jakie platformy obsługujecie?",
+            "answer": "Tworzymy chatboty dla Telegram, WhatsApp, Viber oraz widgety czatu na stronę internetową. Możemy też zintegrować bota z Facebook Messenger lub Instagram."
+          },
+          {
+            "question": "Czy bot może się połączyć z moim CRM?",
+            "answer": "Tak, integrujemy chatboty z popularnymi systemami CRM i ERP. Bot może automatycznie dodawać leady, aktualizować dane klientów i tworzyć zamówienia w Twoim systemie."
+          },
+          {
+            "question": "Jak inteligentny jest bot?",
+            "answer": "Oferujemy zarówno boty oparte na regułach (scenariusze i przyciski), jak i boty AI z rozumieniem naturalnego języka. Wybór zależy od złożoności Twoich potrzeb i budżetu."
+          },
+          {
+            "question": "Co gdy bot nie zna odpowiedzi?",
+            "answer": "Bot może przekazać rozmowę do człowieka, zapisać pytanie do późniejszej odpowiedzi lub poprosić klienta o kontakt telefoniczny. Ty decydujesz, jak ma działać."
+          },
+          {
+            "question": "Ile kosztuje utrzymanie bota?",
+            "answer": "Koszty utrzymania zależą od platformy i liczby wiadomości. Telegram jest bezpłatny, WhatsApp Business API ma opłaty za wiadomości. Przedstawimy szczegółową kalkulację podczas konsultacji."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Gotowy na automatyzację?",
+        "description": "Umów się na bezpłatną konsultację. Pokażemy, jak chatbot może usprawnić obsługę klienta w Twoim biznesie.",
+        "button": "Zamów konsultację"
+      },
+      "platforms": {
+        "title": "Platformy, które obsługujemy",
+        "telegram": "Telegram",
+        "whatsapp": "WhatsApp Business",
+        "viber": "Viber",
+        "website": "Czat na stronie"
       }
     },
     "ai_solutions": {
