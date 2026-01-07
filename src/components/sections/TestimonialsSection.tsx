@@ -203,7 +203,7 @@ export default function TestimonialsSection() {
 
                   {/* Content */}
                   <p className="text-xl md:text-2xl text-foreground mb-8 leading-relaxed">
-                    "{t(demoTestimonials[currentIndex].content)}"
+                    &ldquo;{t(demoTestimonials[currentIndex].content)}&rdquo;
                   </p>
 
                   {/* Author */}
