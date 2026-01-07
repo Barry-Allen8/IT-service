@@ -11,7 +11,8 @@ import { locales, type Locale } from "@/i18n";
 const localeLabels: Record<Locale, string> = {
   pl: "PL",
   en: "EN",
-  uk: "UA",
+  de: "DE",
+  fr: "FR",
 };
 
 export default function Header() {

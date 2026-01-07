@@ -1,0 +1,483 @@
+{
+  "navigation": {
+    "services": "Services",
+    "courses": "Cours",
+    "portfolio": "Portfolio",
+    "about": "À propos",
+    "blog": "Blog",
+    "contact": "Contact",
+    "consultation": "Réserver une consultation"
+  },
+  "services_menu": {
+    "websites": "Développement Web",
+    "chatbots": "Chatbots",
+    "ai_solutions": "Solutions IA",
+    "consulting": "Conseil IT",
+    "mobile_apps": "Applications Mobiles",
+    "cloud": "Solutions Cloud"
+  },
+  "hero": {
+    "badge": "Solutions IT innovantes depuis 2020",
+    "title": "Transformer les idées en",
+    "title_gradient": "solutions numériques",
+    "description": "Développement web, chatbots, solutions IA et conseil IT complet pour le succès de votre entreprise",
+    "cta_primary": "Réserver une consultation",
+    "cta_secondary": "Nos services",
+    "stats": {
+      "individual": "Approche individuelle",
+      "modern": "Technologies modernes",
+      "partnership": "Coopération partenariale",
+      "quality": "Garantie de qualité"
+    }
+  },
+  "services": {
+    "title": "Nos Services",
+    "description": "Solutions IT complètes pour votre entreprise par des spécialistes expérimentés",
+    "learn_more": "En savoir plus",
+    "order": "Commander",
+    "what_you_get": "Ce que vous obtenez",
+    "packages": "Forfaits de services",
+    "popular": "Populaire",
+    "websites": {
+      "title": "Développement Web",
+      "description": "Nous créons des sites web modernes, rapides et conviviaux pour votre entreprise",
+      "hero_description": "Nous créons des sites web modernes, rapides et conviviaux qui aident les entreprises à croître",
+      "features": ["Pages d'atterrissage et sites promotionnels", "Sites d'entreprise", "Boutiques e-commerce", "Applications web"],
+      "benefits": {
+        "design": { "title": "Design moderne", "description": "Design unique reflétant votre individualité" },
+        "speed": { "title": "Performance rapide", "description": "Optimisation pour une vitesse de chargement maximale" },
+        "responsive": { "title": "Responsive", "description": "Apparence parfaite sur tous les appareils et écrans" },
+        "seo": { "title": "Optimisation SEO", "description": "Paramètres pour des positions élevées dans les moteurs de recherche" },
+        "security": { "title": "Sécurité", "description": "Protection contre les attaques de hackers et la perte de données" },
+        "support": { "title": "Support", "description": "Support technique après le lancement du projet" }
+      },
+      "packages": {
+        "landing": {
+          "name": "Landing Page",
+          "price": "à partir de 800€",
+          "features": ["Jusqu'à 5 sections", "Design responsive", "Formulaire de contact", "Optimisation SEO", "Chargement rapide"]
+        },
+        "corporate": {
+          "name": "Site d'entreprise",
+          "price": "à partir de 1 500€",
+          "features": ["Jusqu'à 15 pages", "Design unique", "CMS", "Multilingue", "Intégrations", "3 mois de support"]
+        },
+        "ecommerce": {
+          "name": "Boutique e-commerce",
+          "price": "à partir de 2 500€",
+          "features": ["Catalogue de produits", "Panier et paiements", "Système de commandes", "Intégration CRM", "Analyses", "6 mois de support"]
+        }
+      }
+    },
+    "chatbots": {
+      "title": "Chatbots",
+      "description": "Automatisez la communication client avec des bots intelligents",
+      "hero_description": "Automatisation de la communication client avec des bots intelligents",
+      "features": ["Bots Telegram", "Bots Viber/WhatsApp", "Chats de site web", "Intégration CRM"],
+      "benefits": {
+        "support": { "title": "Support 24/7", "description": "Le bot travaille 24h/24 sans pauses ni week-ends" },
+        "instant": { "title": "Réponses instantanées", "description": "Les clients obtiennent des réponses en quelques secondes" },
+        "cost": { "title": "Réduction des coûts", "description": "Économies sur le personnel de support" },
+        "integration": { "title": "Intégration CRM", "description": "Ajout automatique des leads au système" }
+      }
+    },
+    "ai_solutions": {
+      "title": "Solutions IA",
+      "description": "Nous implémentons l'intelligence artificielle pour optimiser les processus métier",
+      "hero_description": "Implémentation de l'intelligence artificielle pour optimiser les processus métier",
+      "features": ["Intégration ChatGPT", "Assistants IA", "Automatisation des processus", "Analyse de données"],
+      "benefits": {
+        "automation": { "title": "Automatisation", "description": "Automatisation des tâches et processus routiniers" },
+        "analytics": { "title": "Analytique", "description": "Analyse approfondie des données et prévisions" },
+        "personalization": { "title": "Personnalisation", "description": "Approche individuelle pour chaque client" },
+        "efficiency": { "title": "Efficacité", "description": "Augmentation de la productivité de l'équipe" }
+      }
+    },
+    "consulting": {
+      "title": "Conseil IT",
+      "description": "Conseil professionnel en transformation numérique",
+      "hero_description": "Conseil professionnel en transformation numérique de votre entreprise",
+      "features": ["Audit de l'infrastructure IT", "Stratégie de développement", "Sélection de technologies", "Optimisation des processus"],
+      "benefits": {
+        "audit": { "title": "Audit", "description": "Analyse complète de l'infrastructure IT actuelle" },
+        "strategy": { "title": "Stratégie", "description": "Développement d'un plan de croissance technologique" },
+        "optimization": { "title": "Optimisation", "description": "Amélioration de l'efficacité des processus" },
+        "training": { "title": "Formation", "description": "Formation de l'équipe sur les nouveaux outils" }
+      }
+    },
+    "mobile_apps": {
+      "title": "Applications Mobiles",
+      "description": "Développement d'applications mobiles natives et multiplateformes",
+      "hero_description": "Développement d'applications mobiles natives et multiplateformes",
+      "features": ["iOS et Android", "React Native / Flutter", "Design UX/UI", "Support et mises à jour"],
+      "benefits": {
+        "native": { "title": "Qualité native", "description": "Haute performance et apparence native" },
+        "cross": { "title": "Multiplateforme", "description": "Une base de code pour iOS et Android" },
+        "ux": { "title": "Design UX/UI", "description": "Interface intuitive et attractive" },
+        "support": { "title": "Support", "description": "Mises à jour et support technique" }
+      }
+    },
+    "cloud": {
+      "title": "Solutions Cloud",
+      "description": "DevOps, hébergement et configuration d'infrastructure cloud",
+      "hero_description": "DevOps, hébergement et configuration d'infrastructure cloud",
+      "features": ["AWS / Google Cloud / Azure", "Configuration CI/CD", "Docker / Kubernetes", "Surveillance et sécurité"],
+      "benefits": {
+        "scalability": { "title": "Évolutivité", "description": "Mise à l'échelle flexible des ressources" },
+        "reliability": { "title": "Fiabilité", "description": "Haute disponibilité et tolérance aux pannes" },
+        "security": { "title": "Sécurité", "description": "Protection des données et conformité" },
+        "automation": { "title": "Automatisation", "description": "CI/CD et déploiements automatiques" }
+      }
+    }
+  },
+  "why_us": {
+    "title": "Pourquoi nous choisir",
+    "description": "Nous combinons expertise, technologies modernes et approche orientée client",
+    "professionalism": { "title": "Professionnalisme", "description": "Équipe de spécialistes expérimentés avec plus de 5 ans d'expérience" },
+    "speed": { "title": "Rapidité", "description": "Nous respectons les délais et assurons des démarrages de projets rapides" },
+    "reliability": { "title": "Fiabilité", "description": "Nous garantissons qualité, sécurité et support après le lancement" },
+    "individual": { "title": "Approche individuelle", "description": "Nous comprenons les besoins de chaque client et proposons des solutions optimales" }
+  },
+  "process": {
+    "title": "Notre processus de travail",
+    "description": "Processus transparent et clair de l'idée au lancement",
+    "steps": {
+      "consultation": { "title": "Consultation et analyse", "description": "Nous discutons de vos objectifs, analysons les besoins et créons les spécifications" },
+      "design": { "title": "Design et planification", "description": "Nous créons l'architecture du projet et développons un design unique" },
+      "development": { "title": "Développement", "description": "Nous implémentons le projet en utilisant des technologies modernes" },
+      "testing": { "title": "Tests", "description": "Nous testons minutieusement toutes les fonctions et optimisons les performances" },
+      "launch": { "title": "Lancement et support", "description": "Nous lançons le projet et fournissons un support technique" }
+    }
+  },
+  "testimonials": { 
+    "title": "Avis clients", 
+    "description": "Ce que nos clients disent de nous",
+    "coming_soon_title": "Votre avis pourrait être le premier !",
+    "coming_soon_text": "Nous sommes une nouvelle entreprise et nous construisons notre réputation. Nous apprécierions vos commentaires après avoir travaillé ensemble."
+  },
+  "cta": {
+    "title": "Prêt à démarrer votre projet ?",
+    "description": "Obtenez une consultation gratuite de nos experts et découvrez comment nous pouvons aider votre entreprise à croître",
+    "button_primary": "Réserver une consultation",
+    "button_secondary": "Voir le portfolio"
+  },
+  "footer": {
+    "description": "Solutions IT professionnelles pour votre entreprise. Développement web, chatbots et implémentation de technologie IA.",
+    "services_title": "Services",
+    "company_title": "Entreprise",
+    "contact_title": "Contact",
+    "address": "Varsovie, Pologne",
+    "working_hours": "Lun-Ven : 9h00 - 18h00",
+    "weekend": "Sam-Dim : Fermé",
+    "rights": "Tous droits réservés.",
+    "privacy": "Politique de confidentialité",
+    "terms": "Conditions d'utilisation",
+    "newsletter_title": "Restez informé",
+    "newsletter_desc": "Abonnez-vous à notre newsletter et recevez les dernières informations sur les technologies et tendances IT.",
+    "newsletter_placeholder": "Votre email",
+    "newsletter_button": "S'abonner"
+  },
+  "contact": {
+    "title": "Contactez-nous",
+    "description": "Prêt à discuter de votre projet ? Laissez une demande et nous vous contacterons bientôt",
+    "form_title": "Formulaire de contact",
+    "info_title": "Informations de contact",
+    "address": "Adresse",
+    "phone": "Téléphone",
+    "email": "Email",
+    "hours": "Heures d'ouverture",
+    "form": {
+      "name": "Nom *",
+      "name_placeholder": "Votre nom",
+      "email": "Email *",
+      "email_placeholder": "votre@email.com",
+      "phone": "Téléphone",
+      "phone_placeholder": "+33 ___ ___ ___",
+      "service": "Service",
+      "service_placeholder": "Sélectionnez un service",
+      "message": "Message *",
+      "message_placeholder": "Parlez-nous de votre projet...",
+      "submit": "Envoyer",
+      "submitting": "Envoi en cours...",
+      "success": "Merci ! Votre message a été envoyé.",
+      "error": "Une erreur s'est produite. Veuillez réessayer."
+    }
+  },
+  "about": {
+    "title": "À propos de nous",
+    "description": "Nous sommes une équipe de professionnels créant des solutions IT modernes pour le succès des entreprises",
+    "story_title": "Notre histoire",
+    "story_p1": "VektaDev a été fondé en 2020 avec la mission de fournir des services IT de haute qualité.",
+    "story_p2": "Notre équipe est composée de développeurs, designers et chefs de projet expérimentés.",
+    "story_p3": "Nous croyons au pouvoir de la technologie et à sa capacité à transformer les entreprises.",
+    "values_title": "Nos valeurs",
+    "values": {
+      "focus": { "title": "Focus sur les résultats", "description": "Nous nous concentrons sur l'atteinte des objectifs commerciaux de nos clients" },
+      "quality": { "title": "La qualité d'abord", "description": "Nous maintenons les plus hauts standards dans chaque projet" },
+      "partnership": { "title": "Partenariat", "description": "Nous construisons des relations à long terme avec les clients" },
+      "innovation": { "title": "Innovation", "description": "Nous utilisons les dernières technologies et approches" }
+    },
+    "team_title": "Notre équipe",
+    "stats": { "years": "Années sur le marché", "projects": "Projets réalisés", "clients": "Clients satisfaits", "team": "Spécialistes" },
+    "cta_title": "Prêt à collaborer ?",
+    "cta_description": "Contactez-nous pour discuter de votre projet",
+    "cta_button": "Contactez-nous"
+  },
+  "courses": {
+    "title": "Nos cours",
+    "description": "Apprenez des meilleurs experts et acquérez des compétences pratiques",
+    "duration": "Durée",
+    "lessons": "leçons",
+    "format": "Format",
+    "from": "À partir de",
+    "details": "Détails",
+    "for_whom": "À qui s'adresse ce cours",
+    "benefits": "Avantages du cours",
+    "instructor": "Instructeur",
+    "pricing": "Tarifs",
+    "recommended": "Recommandé",
+    "choose": "Choisir",
+    "program": "Programme du cours",
+    "enroll": "S'inscrire au cours",
+    "hours": "heures",
+    "online": "en ligne",
+    "course_list": {
+      "web_dev": {
+        "title": "Fondamentaux du développement web",
+        "shortDescription": "Cours complet pour débutants en développement web",
+        "description": "Apprenez à créer des sites web modernes à partir de zéro. HTML, CSS, JavaScript et bases de React.",
+        "duration": "40 heures",
+        "format": "en ligne",
+        "instructor": {
+          "name": "André Martin",
+          "experience": "8 ans d'expérience",
+          "bio": "Développeur web senior avec 8 ans d'expérience. A travaillé sur des projets pour des entreprises internationales."
+        },
+        "benefits": [
+          "Compétences pratiques en développement web",
+          "Création de votre propre portfolio",
+          "Support de l'instructeur",
+          "Certificat à la fin"
+        ],
+        "targetAudience": [
+          "Débutants sans expérience en programmation",
+          "Étudiants en IT",
+          "Professionnels souhaitant changer de carrière",
+          "Entrepreneurs voulant créer des sites web"
+        ],
+        "modules": {
+          "module1": {
+            "title": "Module 1 : HTML & CSS",
+            "lessons": ["Introduction à HTML", "Balisage sémantique", "Sélecteurs et propriétés CSS", "Flexbox et Grid", "Design responsive"]
+          },
+          "module2": {
+            "title": "Module 2 : JavaScript",
+            "lessons": ["Bases de JavaScript", "Manipulation du DOM", "Événements et gestionnaires", "JavaScript asynchrone", "API et fetch"]
+          },
+          "module3": {
+            "title": "Module 3 : Bases de React",
+            "lessons": ["Composants et props", "State et cycle de vie", "Hooks", "Travail avec les formulaires", "Projet final"]
+          }
+        },
+        "pricing": {
+          "standard": {
+            "name": "Standard",
+            "features": ["Accès à toutes les leçons", "Devoirs", "Support par chat", "Certificat"]
+          },
+          "premium": {
+            "name": "Premium",
+            "features": ["Tout de Standard", "Consultations personnelles", "Revue de code", "Aide au placement professionnel"]
+          }
+        }
+      },
+      "ai_chatbots": {
+        "title": "Développement de chatbots IA",
+        "shortDescription": "Apprenez à créer des chatbots intelligents avec l'IA",
+        "description": "Créez des chatbots pour Telegram, Viber avec intégration ChatGPT et Claude.",
+        "duration": "30 heures",
+        "format": "en ligne",
+        "instructor": {
+          "name": "Marie Dubois",
+          "experience": "6 ans d'expérience",
+          "bio": "Experte en IA et chatbots. A créé plus de 50 bots pour diverses entreprises."
+        },
+        "benefits": [
+          "Compétences pratiques en création de bots",
+          "Intégration avec les modèles IA",
+          "Monétisation des bots",
+          "Études de cas réelles"
+        ],
+        "targetAudience": [
+          "Développeurs avec connaissances de base",
+          "Entrepreneurs souhaitant automatiser leur entreprise",
+          "Spécialistes marketing",
+          "Toute personne intéressée par l'IA"
+        ],
+        "modules": {
+          "module1": {
+            "title": "Bases des chatbots",
+            "lessons": ["Qu'est-ce qu'un chatbot", "API Telegram Bot", "Structure de base d'un bot", "Gestion des commandes"]
+          },
+          "module2": {
+            "title": "Intégration IA",
+            "lessons": ["API ChatGPT", "API Claude", "Prompt engineering", "Contexte et mémoire"]
+          },
+          "module3": {
+            "title": "Production & Monétisation",
+            "lessons": ["Déploiement de bot", "Analyses", "Monétisation", "Projet final"]
+          }
+        },
+        "pricing": {
+          "standard": {
+            "name": "Standard",
+            "features": ["Accès aux leçons", "Devoirs", "Support", "Certificat"]
+          },
+          "premium": {
+            "name": "Premium",
+            "features": ["Tout de Standard", "Mentorat", "Revue de code", "Assistance projet"]
+          }
+        }
+      }
+    }
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "description": "Exemples de projets démo montrant nos capacités",
+    "all": "Tous",
+    "view": "Voir",
+    "no_projects": "Aucun projet dans cette catégorie",
+    "demo_note": "Les projets marqués [Démo] sont des projets de démonstration montrant nos capacités techniques",
+    "categories": {
+      "ecommerce": "E-commerce",
+      "website": "Site web",
+      "chatbot": "Chatbot",
+      "ai_solution": "Solution IA",
+      "mobile_app": "App Mobile"
+    },
+    "projects": {
+      "electronics_shop": {
+        "title": "[Démo] Boutique électronique en ligne",
+        "description": "Projet démo : boutique en ligne complète avec intégration de paiement, système de filtrage et compte personnel"
+      },
+      "restaurant_bot": {
+        "title": "[Démo] Bot Telegram Restaurant",
+        "description": "Projet démo : bot pour recevoir des commandes et réservations de tables avec intégration CRM"
+      },
+      "corporate_website": {
+        "title": "[Démo] Site d'entreprise",
+        "description": "Projet démo : site d'entreprise multilingue avec système de gestion de contenu"
+      },
+      "ai_assistant": {
+        "title": "[Démo] Assistant IA",
+        "description": "Projet démo : assistant intelligent pour le traitement des demandes et l'automatisation des processus"
+      },
+      "fitness_app": {
+        "title": "[Démo] App Mobile Fitness",
+        "description": "Projet démo : application multiplateforme pour le suivi des entraînements et de la nutrition"
+      },
+      "education_platform": {
+        "title": "[Démo] Plateforme éducative",
+        "description": "Projet démo : plateforme en ligne pour l'apprentissage à distance avec des cours vidéo"
+      }
+    }
+  },
+  "blog": {
+    "title": "Blog",
+    "description": "Articles utiles sur l'IT, la technologie et les affaires",
+    "back": "Retour au blog",
+    "author": "Auteur de l'article",
+    "need_help": "Besoin d'aide pour un projet ?",
+    "get_consultation": "Obtenez une consultation gratuite de nos experts",
+    "contact_us": "Contactez-nous",
+    "related": "Articles connexes"
+  },
+  "blog_posts": {
+    "ai_trends": {
+      "title": "L'IA dans les affaires : Tendances 2024",
+      "excerpt": "Comment l'intelligence artificielle change les processus métier et ce que les entrepreneurs doivent savoir",
+      "category": "IA",
+      "author": "André Martin",
+      "date": "2024-01-15"
+    },
+    "chatbot_automation": {
+      "title": "Automatisation des affaires avec les chatbots",
+      "excerpt": "Conseils pratiques pour implémenter des chatbots dans votre entreprise",
+      "category": "Chatbots",
+      "author": "Marie Dubois",
+      "date": "2024-01-10"
+    },
+    "web_development": {
+      "title": "Tendances du développement web en 2024",
+      "excerpt": "Les nouveautés du développement web et les technologies à apprendre",
+      "category": "Développement Web",
+      "author": "André Martin",
+      "date": "2024-01-05"
+    }
+  },
+  "not_found": {
+    "title": "Page non trouvée",
+    "description": "Désolé, mais la page que vous recherchez n'existe pas ou a été déplacée.",
+    "home": "Accueil",
+    "contact": "Contactez-nous"
+  },
+  "privacy": {
+    "title": "Politique de confidentialité",
+    "general": "1. Dispositions générales",
+    "general_text": "Cette politique de confidentialité définit les procédures de traitement et de protection des données personnelles des utilisateurs du site VektaDev.",
+    "collection": "2. Collecte d'informations",
+    "collection_text": "Nous collectons les informations suivantes :",
+    "collection_items": ["Nom et prénom", "Informations de contact (email, téléphone)", "Informations sur les demandes"],
+    "usage": "3. Utilisation des informations",
+    "usage_text": "Les informations collectées sont utilisées pour :",
+    "usage_items": ["Fourniture de nos services", "Communication avec les clients", "Amélioration de la qualité des services"],
+    "protection": "4. Protection des données",
+    "protection_text": "Nous prenons toutes les mesures nécessaires pour protéger les données personnelles.",
+    "contact_title": "5. Contact",
+    "contact_text": "Pour les questions concernant la politique de confidentialité, veuillez contacter : contact@vektadev.com"
+  },
+  "terms": {
+    "title": "Conditions d'utilisation",
+    "acceptance": "1. Acceptation des conditions",
+    "acceptance_text": "En utilisant ce site web, vous acceptez les conditions d'utilisation.",
+    "services_section": "2. Services",
+    "services_text": "VektaDev fournit des services de développement web, chatbot, solutions IA et conseil IT.",
+    "ip": "3. Propriété intellectuelle",
+    "ip_text": "Tous les matériaux sur le site sont protégés par le droit d'auteur.",
+    "liability": "4. Limitation de responsabilité",
+    "liability_text": "L'entreprise n'est pas responsable des dommages indirects résultant de l'utilisation de nos services.",
+    "changes": "5. Modifications des conditions",
+    "changes_text": "Nous nous réservons le droit de modifier ces conditions à tout moment.",
+    "contact_title": "6. Contact",
+    "contact_text": "Pour les questions concernant les conditions d'utilisation, veuillez contacter : contact@vektadev.com"
+  },
+  "common": {
+    "loading": "Chargement...",
+    "error": "Une erreur s'est produite",
+    "try_again": "Réessayer",
+    "home": "Accueil",
+    "currency": "€"
+  },
+  "trusted": {
+    "title": "Technologies que nous utilisons"
+  },
+  "cases": {
+    "badge": "Études de cas",
+    "title": "Nos projets",
+    "description": "Exemples de projets réalisés et résultats obtenus",
+    "case_1_title": "Plateforme E-commerce",
+    "case_1_desc": "Boutique en ligne moderne avec intégration de paiement et automatisation des processus",
+    "case_1_result_1": "Augmentation des ventes",
+    "case_1_result_2": "Temps de chargement",
+    "case_2_title": "Chatbot support client IA",
+    "case_2_desc": "Assistant intelligent automatisant le support client et les réservations",
+    "case_2_result_1": "Automatisation des demandes",
+    "case_2_result_2": "Disponibilité",
+    "case_3_title": "Système d'automatisation d'entreprise",
+    "case_3_desc": "Solution complète pour l'automatisation des processus métier",
+    "case_3_result_1": "Gain de temps",
+    "case_3_result_2": "Augmentation de productivité",
+    "view_case": "Voir les détails",
+    "view_all": "Voir tous les projets"
+  }
+}
+
