@@ -389,13 +389,79 @@
     "mobile_apps": {
       "title": "Aplikacje mobilne",
       "description": "Tworzenie natywnych i cross-platformowych aplikacji mobilnych",
-      "hero_description": "Tworzenie natywnych i cross-platformowych aplikacji mobilnych",
+      "hero_title": "Twój pomysł na aplikację, profesjonalnie zrealizowany",
+      "hero_subtitle": "iOS i Android z jednego kodu źródłowego",
+      "hero_description": "Tworzymy aplikacje mobilne, które zachwycają użytkowników i napędzają Twój biznes. React Native, Flutter — nowoczesne technologie dla szybszego time-to-market.",
+      "hero_cta": "Omów swój pomysł na aplikację",
       "features": ["iOS i Android", "React Native / Flutter", "Design UX/UI", "Wsparcie i aktualizacje"],
       "benefits": {
-        "native": { "title": "Natywna jakość", "description": "Wysoka wydajność i natywny wygląd" },
-        "cross": { "title": "Cross-platform", "description": "Jeden kod dla iOS i Android" },
-        "ux": { "title": "UX/UI Design", "description": "Intuicyjny i atrakcyjny interfejs" },
-        "support": { "title": "Wsparcie", "description": "Aktualizacje i wsparcie techniczne" }
+        "native": { "title": "Natywna jakość", "description": "Wysoka wydajność i płynne animacje jak w natywnych aplikacjach" },
+        "cross": { "title": "Cross-platform", "description": "Jeden kod dla iOS i Android — szybszy rozwój, niższe koszty" },
+        "ux": { "title": "UX/UI w cenie", "description": "Projektujemy intuicyjny interfejs, który użytkownicy pokochają" },
+        "support": { "title": "Wsparcie po premierze", "description": "Aktualizacje, poprawki błędów i rozwój funkcji po uruchomieniu" }
+      },
+      "who_its_for": {
+        "title": "Czy budowa aplikacji mobilnej jest dla Ciebie?",
+        "best_for_title": "Idealne dla:",
+        "best_for": [
+          "Startupów z zwalidowanym pomysłem na aplikację",
+          "Firm potrzebujących aplikacji dla swoich klientów",
+          "Przedsiębiorstw szukających wewnętrznych aplikacji biznesowych",
+          "Właścicieli istniejących aplikacji wymagających modernizacji"
+        ],
+        "not_for_title": "Nie dla:",
+        "not_for": [
+          "Pomysłów bez jasnego modelu biznesowego",
+          "Gier mobilnych i wysoce specjalistycznych aplikacji"
+        ]
+      },
+      "problem_solution": {
+        "title": "Od pomysłu do aplikacji w App Store",
+        "problem_title": "Problem",
+        "problem_text": "Twoi klienci oczekują doświadczenia mobilnego. Konkurencja już ma swoje aplikacje. Każdy dzień bez obecności mobilnej to utraceni klienci i przegapione możliwości zaangażowania.",
+        "solution_title": "Nasze rozwiązanie",
+        "solution_text": "Cross-platformowa aplikacja zbudowana w React Native lub Flutter. Jeden zespół, jeden kod źródłowy, dwie platformy. Szybszy rozwój, niższe koszty i spójne doświadczenie użytkownika na iOS i Android.",
+        "result_title": "Rezultat",
+        "result_text": "Szybszy czas wejścia na rynek, niższe koszty rozwoju i utrzymania, spójne doświadczenie dla wszystkich użytkowników. Twoja aplikacja w App Store i Google Play gotowa do zdobywania klientów."
+      },
+      "trust_signals": {
+        "title": "Dlaczego my",
+        "items": [
+          { "title": "Ekspertyza cross-platform", "description": "Specjalizujemy się w React Native i Flutter — sprawdzonych technologiach używanych przez największe firmy" },
+          { "title": "Publikacja w sklepach w cenie", "description": "Pomagamy z całym procesem publikacji w App Store i Google Play" },
+          { "title": "Wsparcie po premierze", "description": "Nie znikamy po uruchomieniu. Oferujemy pakiety wsparcia i rozwoju aplikacji" },
+          { "title": "Design UX/UI w standardzie", "description": "Każda aplikacja zawiera profesjonalny design dopasowany do Twojej marki" }
+        ]
+      },
+      "faq": {
+        "title": "Najczęściej zadawane pytania",
+        "items": [
+          {
+            "question": "iOS, Android czy obydwa?",
+            "answer": "Rekomendujemy budowę na obie platformy jednocześnie dzięki technologiom cross-platform (React Native, Flutter). Płacisz za jeden projekt, a otrzymujesz aplikację na iOS i Android. Jeśli jednak Twoja grupa docelowa jest silnie skoncentrowana na jednej platformie, możemy zacząć od niej."
+          },
+          {
+            "question": "Ile czasu zajmuje stworzenie aplikacji mobilnej?",
+            "answer": "Prosty MVP zajmuje 2-3 miesiące. Średnio złożona aplikacja z backendem 3-5 miesięcy. Złożone aplikacje z wieloma integracjami 5-8 miesięcy. Dokładny harmonogram przedstawimy po analizie wymagań."
+          },
+          {
+            "question": "Czy publikujecie aplikację w sklepach?",
+            "answer": "Tak, zajmujemy się całym procesem publikacji. Przygotowujemy materiały graficzne, opisy, pomagamy z kontami developerskimi i przeprowadzamy przez review Apple i Google. Publikacja w App Store i Google Play jest wliczona w cenę."
+          },
+          {
+            "question": "Co z bieżącym utrzymaniem aplikacji?",
+            "answer": "Po premierze oferujemy pakiety wsparcia obejmujące: poprawki błędów, aktualizacje zgodności z nowymi wersjami iOS/Android, drobne usprawnienia i monitoring działania. Możemy też rozwijać aplikację o nowe funkcje."
+          },
+          {
+            "question": "Czy możecie pracować z istniejącym backendem?",
+            "answer": "Oczywiście. Jeśli masz już backend lub API, zintegrujemy z nim aplikację mobilną. Jeśli potrzebujesz backendu, możemy go również zbudować lub pomóc w wyborze rozwiązań BaaS (Backend as a Service)."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Gotowy omówić swój pomysł na aplikację?",
+        "description": "Bezpłatna konsultacja, podczas której omówimy Twój pomysł, doradzimy technologię i przedstawimy wstępną wycenę. Bez zobowiązań.",
+        "button": "Omów swój pomysł na aplikację"
       }
     },
     "cloud": {

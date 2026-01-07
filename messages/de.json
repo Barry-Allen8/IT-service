@@ -389,13 +389,79 @@
     "mobile_apps": {
       "title": "Mobile Apps",
       "description": "Entwicklung nativer und plattformübergreifender mobiler Anwendungen",
-      "hero_description": "Entwicklung nativer und plattformübergreifender mobiler Anwendungen",
+      "hero_title": "Ihre App-Idee, professionell umgesetzt",
+      "hero_subtitle": "iOS & Android aus einer Codebasis",
+      "hero_description": "Wir entwickeln mobile Apps, die Nutzer begeistern und Ihr Geschäft vorantreiben. React Native, Flutter — moderne Technologien für schnellere Markteinführung.",
+      "hero_cta": "Besprechen Sie Ihre App-Idee",
       "features": ["iOS und Android", "React Native / Flutter", "UX/UI-Design", "Support und Updates"],
       "benefits": {
-        "native": { "title": "Native Qualität", "description": "Hohe Leistung und natives Aussehen" },
-        "cross": { "title": "Plattformübergreifend", "description": "Eine Codebasis für iOS und Android" },
-        "ux": { "title": "UX/UI-Design", "description": "Intuitive und attraktive Benutzeroberfläche" },
-        "support": { "title": "Support", "description": "Updates und technischer Support" }
+        "native": { "title": "Native Qualität", "description": "Hohe Leistung und flüssige Animationen wie native Apps" },
+        "cross": { "title": "Plattformübergreifend", "description": "Eine Codebasis für iOS und Android — schnellere Entwicklung, niedrigere Kosten" },
+        "ux": { "title": "UX/UI inklusive", "description": "Wir gestalten intuitive Oberflächen, die Nutzer lieben werden" },
+        "support": { "title": "Support nach dem Start", "description": "Updates, Fehlerbehebungen und Feature-Entwicklung nach dem Launch" }
+      },
+      "who_its_for": {
+        "title": "Ist die Entwicklung einer mobilen App das Richtige für Sie?",
+        "best_for_title": "Ideal für:",
+        "best_for": [
+          "Startups mit validierten App-Konzepten",
+          "Unternehmen, die kundenorientierte mobile Apps benötigen",
+          "Firmen, die interne Business-Apps wünschen",
+          "Bestehende Apps, die Modernisierung benötigen"
+        ],
+        "not_for_title": "Nicht geeignet für:",
+        "not_for": [
+          "Ideen ohne klares Geschäftsmodell",
+          "Spiele oder hochspezialisierte Apps"
+        ]
+      },
+      "problem_solution": {
+        "title": "Von der Idee zum App Store",
+        "problem_title": "Das Problem",
+        "problem_text": "Ihre Kunden erwarten ein mobiles Erlebnis. Wettbewerber haben bereits ihre Apps. Jeder Tag ohne mobile Präsenz bedeutet verlorene Kunden und verpasste Engagement-Möglichkeiten.",
+        "solution_title": "Unsere Lösung",
+        "solution_text": "Plattformübergreifende App mit React Native oder Flutter. Ein Team, eine Codebasis, zwei Plattformen. Schnellere Entwicklung, niedrigere Kosten und konsistente Nutzererfahrung auf iOS und Android.",
+        "result_title": "Das Ergebnis",
+        "result_text": "Schnellere Markteinführung, niedrigere Entwicklungs- und Wartungskosten, konsistente Erfahrung für alle Nutzer. Ihre App im App Store und Google Play bereit, Kunden zu gewinnen."
+      },
+      "trust_signals": {
+        "title": "Warum uns wählen",
+        "items": [
+          { "title": "Cross-Platform-Expertise", "description": "Wir spezialisieren uns auf React Native und Flutter — bewährte Technologien führender Unternehmen" },
+          { "title": "App-Store-Veröffentlichung inklusive", "description": "Wir übernehmen den gesamten Veröffentlichungsprozess für App Store und Google Play" },
+          { "title": "Support nach dem Launch", "description": "Wir verschwinden nicht nach dem Start. Wir bieten Support- und Entwicklungspakete" },
+          { "title": "UX/UI-Design inklusive", "description": "Jede App enthält professionelles Design, angepasst an Ihre Marke" }
+        ]
+      },
+      "faq": {
+        "title": "Häufig gestellte Fragen",
+        "items": [
+          {
+            "question": "iOS, Android oder beides?",
+            "answer": "Wir empfehlen die gleichzeitige Entwicklung für beide Plattformen mit Cross-Platform-Technologien (React Native, Flutter). Sie zahlen für ein Projekt und erhalten eine App für iOS und Android. Wenn Ihre Zielgruppe jedoch stark auf eine Plattform konzentriert ist, können wir dort beginnen."
+          },
+          {
+            "question": "Wie lange dauert die App-Entwicklung?",
+            "answer": "Ein einfaches MVP dauert 2-3 Monate. Eine mittelkomplexe App mit Backend 3-5 Monate. Komplexe Apps mit mehreren Integrationen 5-8 Monate. Nach der Analyse Ihrer Anforderungen erstellen wir einen genauen Zeitplan."
+          },
+          {
+            "question": "Veröffentlichen Sie in den App Stores?",
+            "answer": "Ja, wir übernehmen den gesamten Veröffentlichungsprozess. Wir bereiten Grafiken, Beschreibungen vor, helfen bei Entwicklerkonten und begleiten Sie durch die Prüfung von Apple und Google. Die Veröffentlichung im App Store und Google Play ist im Preis inbegriffen."
+          },
+          {
+            "question": "Was ist mit der laufenden Wartung?",
+            "answer": "Nach dem Start bieten wir Support-Pakete an, die umfassen: Fehlerbehebungen, Kompatibilitätsupdates für neue iOS/Android-Versionen, kleinere Verbesserungen und Leistungsüberwachung. Wir können auch neue Funktionen entwickeln."
+          },
+          {
+            "question": "Können Sie mit einem bestehenden Backend arbeiten?",
+            "answer": "Absolut. Wenn Sie bereits ein Backend oder eine API haben, integrieren wir die mobile App damit. Wenn Sie ein Backend benötigen, können wir das auch erstellen oder Ihnen bei der Auswahl von BaaS-Lösungen (Backend as a Service) helfen."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Bereit, Ihre App-Idee zu besprechen?",
+        "description": "Kostenlose Beratung, bei der wir Ihre Idee besprechen, Technologie empfehlen und eine vorläufige Schätzung abgeben. Ohne Verpflichtung.",
+        "button": "Besprechen Sie Ihre App-Idee"
       }
     },
     "cloud": {

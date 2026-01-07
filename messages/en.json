@@ -389,13 +389,79 @@
     "mobile_apps": {
       "title": "Mobile Apps",
       "description": "Development of native and cross-platform mobile applications",
-      "hero_description": "Development of native and cross-platform mobile applications",
+      "hero_title": "Your App Idea, Professionally Built",
+      "hero_subtitle": "iOS & Android from One Codebase",
+      "hero_description": "We build mobile apps that delight users and drive your business. React Native, Flutter — modern technologies for faster time-to-market.",
+      "hero_cta": "Discuss Your App Idea",
       "features": ["iOS and Android", "React Native / Flutter", "UX/UI design", "Support and updates"],
       "benefits": {
-        "native": { "title": "Native quality", "description": "High performance and native look" },
-        "cross": { "title": "Cross-platform", "description": "One codebase for iOS and Android" },
-        "ux": { "title": "UX/UI Design", "description": "Intuitive and attractive interface" },
-        "support": { "title": "Support", "description": "Updates and technical support" }
+        "native": { "title": "Native quality", "description": "High performance and smooth animations like native apps" },
+        "cross": { "title": "Cross-platform", "description": "One codebase for iOS and Android — faster development, lower costs" },
+        "ux": { "title": "UX/UI included", "description": "We design intuitive interfaces that users will love" },
+        "support": { "title": "Post-launch support", "description": "Updates, bug fixes, and feature development after launch" }
+      },
+      "who_its_for": {
+        "title": "Is Mobile App Development Right for You?",
+        "best_for_title": "Best for:",
+        "best_for": [
+          "Startups with validated app concepts",
+          "Businesses needing customer-facing mobile apps",
+          "Companies wanting internal business apps",
+          "Existing apps needing modernization"
+        ],
+        "not_for_title": "Not for:",
+        "not_for": [
+          "Ideas without a clear business model",
+          "Games or highly specialized apps"
+        ]
+      },
+      "problem_solution": {
+        "title": "From Idea to App Store",
+        "problem_title": "The Problem",
+        "problem_text": "Your customers expect a mobile experience. Competitors already have their apps. Every day without mobile presence means lost customers and missed engagement opportunities.",
+        "solution_title": "Our Solution",
+        "solution_text": "Cross-platform app built with React Native or Flutter. One team, one codebase, two platforms. Faster development, lower costs, and consistent user experience across iOS and Android.",
+        "result_title": "The Result",
+        "result_text": "Faster time-to-market, lower development and maintenance costs, consistent experience for all users. Your app in App Store and Google Play ready to win customers."
+      },
+      "trust_signals": {
+        "title": "Why Choose Us",
+        "items": [
+          { "title": "Cross-platform expertise", "description": "We specialize in React Native and Flutter — proven technologies used by top companies" },
+          { "title": "App store submission included", "description": "We handle the entire publishing process for App Store and Google Play" },
+          { "title": "Post-launch support", "description": "We don't disappear after launch. We offer support and development packages" },
+          { "title": "UX/UI design included", "description": "Every app includes professional design tailored to your brand" }
+        ]
+      },
+      "faq": {
+        "title": "Frequently Asked Questions",
+        "items": [
+          {
+            "question": "iOS, Android, or both?",
+            "answer": "We recommend building for both platforms simultaneously using cross-platform technologies (React Native, Flutter). You pay for one project and get an app for both iOS and Android. However, if your target audience is heavily concentrated on one platform, we can start there."
+          },
+          {
+            "question": "How long does app development take?",
+            "answer": "A simple MVP takes 2-3 months. A moderately complex app with backend 3-5 months. Complex apps with multiple integrations 5-8 months. We'll provide an exact timeline after analyzing your requirements."
+          },
+          {
+            "question": "Do you publish to app stores?",
+            "answer": "Yes, we handle the entire publishing process. We prepare graphics, descriptions, help with developer accounts, and guide you through Apple and Google review. App Store and Google Play submission is included in the price."
+          },
+          {
+            "question": "What about ongoing maintenance?",
+            "answer": "After launch, we offer support packages that include: bug fixes, compatibility updates for new iOS/Android versions, minor improvements, and performance monitoring. We can also develop new features."
+          },
+          {
+            "question": "Can you work with an existing backend?",
+            "answer": "Absolutely. If you already have a backend or API, we'll integrate the mobile app with it. If you need a backend, we can build that too or help you choose BaaS (Backend as a Service) solutions."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Ready to Discuss Your App Idea?",
+        "description": "Free consultation where we'll discuss your idea, recommend technology, and provide a preliminary estimate. No obligation.",
+        "button": "Discuss Your App Idea"
       }
     },
     "cloud": {

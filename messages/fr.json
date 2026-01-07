@@ -389,13 +389,79 @@
     "mobile_apps": {
       "title": "Applications Mobiles",
       "description": "Développement d'applications mobiles natives et multiplateformes",
-      "hero_description": "Développement d'applications mobiles natives et multiplateformes",
+      "hero_title": "Votre idée d'application, réalisée professionnellement",
+      "hero_subtitle": "iOS et Android à partir d'une seule base de code",
+      "hero_description": "Nous créons des applications mobiles qui ravissent les utilisateurs et font avancer votre entreprise. React Native, Flutter — des technologies modernes pour une mise sur le marché plus rapide.",
+      "hero_cta": "Discutez de votre idée d'application",
       "features": ["iOS et Android", "React Native / Flutter", "Design UX/UI", "Support et mises à jour"],
       "benefits": {
-        "native": { "title": "Qualité native", "description": "Haute performance et apparence native" },
-        "cross": { "title": "Multiplateforme", "description": "Une base de code pour iOS et Android" },
-        "ux": { "title": "Design UX/UI", "description": "Interface intuitive et attractive" },
-        "support": { "title": "Support", "description": "Mises à jour et support technique" }
+        "native": { "title": "Qualité native", "description": "Haute performance et animations fluides comme les apps natives" },
+        "cross": { "title": "Multiplateforme", "description": "Une base de code pour iOS et Android — développement plus rapide, coûts réduits" },
+        "ux": { "title": "UX/UI inclus", "description": "Nous concevons des interfaces intuitives que les utilisateurs adoreront" },
+        "support": { "title": "Support après lancement", "description": "Mises à jour, corrections de bugs et développement de fonctionnalités après le lancement" }
+      },
+      "who_its_for": {
+        "title": "Le développement d'application mobile est-il fait pour vous ?",
+        "best_for_title": "Idéal pour :",
+        "best_for": [
+          "Les startups avec des concepts d'applications validés",
+          "Les entreprises ayant besoin d'applications mobiles orientées client",
+          "Les sociétés souhaitant des applications métier internes",
+          "Les applications existantes nécessitant une modernisation"
+        ],
+        "not_for_title": "Pas adapté pour :",
+        "not_for": [
+          "Les idées sans modèle économique clair",
+          "Les jeux ou applications hautement spécialisées"
+        ]
+      },
+      "problem_solution": {
+        "title": "De l'idée à l'App Store",
+        "problem_title": "Le Problème",
+        "problem_text": "Vos clients attendent une expérience mobile. Les concurrents ont déjà leurs applications. Chaque jour sans présence mobile signifie des clients perdus et des opportunités d'engagement manquées.",
+        "solution_title": "Notre Solution",
+        "solution_text": "Application multiplateforme construite avec React Native ou Flutter. Une équipe, une base de code, deux plateformes. Développement plus rapide, coûts réduits et expérience utilisateur cohérente sur iOS et Android.",
+        "result_title": "Le Résultat",
+        "result_text": "Mise sur le marché plus rapide, coûts de développement et de maintenance réduits, expérience cohérente pour tous les utilisateurs. Votre application dans l'App Store et Google Play prête à conquérir des clients."
+      },
+      "trust_signals": {
+        "title": "Pourquoi nous choisir",
+        "items": [
+          { "title": "Expertise multiplateforme", "description": "Nous nous spécialisons dans React Native et Flutter — des technologies éprouvées utilisées par les grandes entreprises" },
+          { "title": "Publication dans les stores incluse", "description": "Nous gérons tout le processus de publication pour l'App Store et Google Play" },
+          { "title": "Support après lancement", "description": "Nous ne disparaissons pas après le lancement. Nous proposons des forfaits de support et de développement" },
+          { "title": "Design UX/UI inclus", "description": "Chaque application comprend un design professionnel adapté à votre marque" }
+        ]
+      },
+      "faq": {
+        "title": "Questions fréquentes",
+        "items": [
+          {
+            "question": "iOS, Android, ou les deux ?",
+            "answer": "Nous recommandons de développer pour les deux plateformes simultanément en utilisant des technologies multiplateformes (React Native, Flutter). Vous payez pour un projet et obtenez une application pour iOS et Android. Cependant, si votre public cible est fortement concentré sur une plateforme, nous pouvons commencer par là."
+          },
+          {
+            "question": "Combien de temps prend le développement d'une application ?",
+            "answer": "Un MVP simple prend 2-3 mois. Une application moyennement complexe avec backend 3-5 mois. Les applications complexes avec plusieurs intégrations 5-8 mois. Nous fournirons un calendrier précis après analyse de vos besoins."
+          },
+          {
+            "question": "Publiez-vous dans les stores d'applications ?",
+            "answer": "Oui, nous gérons tout le processus de publication. Nous préparons les visuels, les descriptions, aidons avec les comptes développeurs et vous guidons à travers les examens Apple et Google. La publication sur l'App Store et Google Play est incluse dans le prix."
+          },
+          {
+            "question": "Qu'en est-il de la maintenance continue ?",
+            "answer": "Après le lancement, nous proposons des forfaits de support qui incluent : corrections de bugs, mises à jour de compatibilité pour les nouvelles versions iOS/Android, améliorations mineures et surveillance des performances. Nous pouvons aussi développer de nouvelles fonctionnalités."
+          },
+          {
+            "question": "Pouvez-vous travailler avec un backend existant ?",
+            "answer": "Absolument. Si vous avez déjà un backend ou une API, nous intégrerons l'application mobile avec. Si vous avez besoin d'un backend, nous pouvons aussi le construire ou vous aider à choisir des solutions BaaS (Backend as a Service)."
+          }
+        ]
+      },
+      "cta_section": {
+        "title": "Prêt à discuter de votre idée d'application ?",
+        "description": "Consultation gratuite où nous discuterons de votre idée, recommanderons la technologie et fournirons une estimation préliminaire. Sans engagement.",
+        "button": "Discutez de votre idée d'application"
       }
     },
     "cloud": {
