@@ -781,12 +781,12 @@
     "team_title": "Our Team",
     "team": {
       "andriy": {
-        "name": "Andrew Kovalenko",
+        "name": "Ievgenii Bigun",
         "position": "CEO & Lead Developer",
         "bio": "Founder of VektaDev with 8 years of experience in web development. Specializes in Next.js and AI integrations."
       },
       "maria": {
-        "name": "Maria Petrenko",
+        "name": "Vladyslav Bereza",
         "position": "AI & Chatbot Developer",
         "bio": "AI and chatbot expert. Has created over 50 bots for various businesses."
       },
@@ -801,7 +801,7 @@
         "bio": "Talented designer with experience in Figma and Adobe. Creates intuitive interfaces."
       },
       "igor": {
-        "name": "Igor Bondarenko",
+        "name": "Paweł Koterski",
         "position": "Backend Developer",
         "bio": "Backend developer with experience in Node.js, Python and DevOps. Specializes in cloud solutions."
       }
