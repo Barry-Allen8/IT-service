@@ -29,6 +29,12 @@ export default function ChatbotsPageClient() {
 
   const trustIcons = [Settings, Database, BarChart3, Users];
 
+  const packages = [
+    { key: "basic", recommended: false },
+    { key: "business", recommended: true },
+    { key: "ai", recommended: false },
+  ];
+
   const platformIcons = [
     { key: "telegram", icon: Send, color: "bg-blue-500" },
     { key: "whatsapp", icon: MessageCircle, color: "bg-green-500" },
@@ -260,6 +266,56 @@ export default function ChatbotsPageClient() {
                 </Card>
               );
             })}
+          </div>
+        </div>
+      </section>
+
+      {/* PACKAGES SECTION */}
+      <section className="section bg-card">
+        <div className="container">
+          <h2 className="text-3xl md:text-4xl font-bold text-center mb-12">
+            {t("packages")}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {packages.map((pkg) => (
+              <Card
+                key={pkg.key}
+                className={`relative ${
+                  pkg.recommended
+                    ? "border-2 border-primary shadow-xl scale-105"
+                    : ""
+                }`}
+              >
+                {pkg.recommended && (
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-white px-4 py-1 rounded-full text-sm font-semibold">
+                    {t("popular")}
+                  </div>
+                )}
+                <h3 className="text-2xl font-bold mb-2">
+                  {t(`chatbots.packages.${pkg.key}.name`)}
+                </h3>
+                <div className="text-3xl font-bold text-primary mb-6">
+                  {t(`chatbots.packages.${pkg.key}.price`)}
+                </div>
+                <ul className="space-y-3 mb-6">
+                  {(
+                    t.raw(`chatbots.packages.${pkg.key}.features`) as string[]
+                  ).map((feature: string, i: number) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <Check className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+                <Button
+                  className="w-full"
+                  variant={pkg.recommended ? "primary" : "outline"}
+                  asChild
+                >
+                  <Link href="/contact">{t("order")}</Link>
+                </Button>
+              </Card>
+            ))}
           </div>
         </div>
       </section>

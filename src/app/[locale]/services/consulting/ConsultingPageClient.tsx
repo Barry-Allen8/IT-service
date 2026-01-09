@@ -32,6 +32,12 @@ export default function ConsultingPageClient() {
   const trustItems = t.raw("consulting.trust_signals.items") as Array<{title: string; description: string}>;
   const faqItems = t.raw("consulting.faq.items") as Array<{question: string; answer: string}>;
 
+  const packages = [
+    { key: "audit", recommended: false },
+    { key: "strategy", recommended: true },
+    { key: "advisory", recommended: false },
+  ];
+
   return (
     <div className="min-h-screen">
       {/* Hero Section - Optimized for conversion */}
@@ -219,8 +225,58 @@ export default function ConsultingPageClient() {
         </div>
       </section>
 
-      {/* FAQ Section */}
+      {/* PACKAGES SECTION */}
       <section className="section">
+        <div className="container">
+          <h2 className="text-3xl font-bold text-center mb-12">
+            {t("packages")}
+          </h2>
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-8 max-w-6xl mx-auto">
+            {packages.map((pkg) => (
+              <Card
+                key={pkg.key}
+                className={`relative ${
+                  pkg.recommended
+                    ? "border-2 border-primary shadow-xl scale-105"
+                    : ""
+                }`}
+              >
+                {pkg.recommended && (
+                  <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-primary text-white px-4 py-1 rounded-full text-sm font-semibold">
+                    {t("popular")}
+                  </div>
+                )}
+                <h3 className="text-2xl font-bold mb-2">
+                  {t(`consulting.packages.${pkg.key}.name`)}
+                </h3>
+                <div className="text-3xl font-bold text-primary mb-6">
+                  {t(`consulting.packages.${pkg.key}.price`)}
+                </div>
+                <ul className="space-y-3 mb-6">
+                  {(
+                    t.raw(`consulting.packages.${pkg.key}.features`) as string[]
+                  ).map((feature: string, i: number) => (
+                    <li key={i} className="flex items-start gap-2">
+                      <Check className="w-5 h-5 text-secondary flex-shrink-0 mt-0.5" />
+                      <span className="text-sm">{feature}</span>
+                    </li>
+                  ))}
+                </ul>
+                <Button
+                  className="w-full"
+                  variant={pkg.recommended ? "primary" : "outline"}
+                  asChild
+                >
+                  <Link href="/contact">{t("order")}</Link>
+                </Button>
+              </Card>
+            ))}
+          </div>
+        </div>
+      </section>
+
+      {/* FAQ Section */}
+      <section className="section bg-card">
         <div className="container">
           <h2 className="text-3xl font-bold text-center mb-12">{t("consulting.faq.title")}</h2>
           <div className="max-w-3xl mx-auto">

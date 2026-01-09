@@ -142,17 +142,17 @@
       "packages": {
         "landing": {
           "name": "Landing",
-          "price": "od 3 000 zł",
+          "price": "od €1 500",
           "features": ["Do 5 sekcji", "Responsywny design", "Formularz kontaktowy", "Optymalizacja SEO", "Szybkie ładowanie"]
         },
         "corporate": {
           "name": "Strona korporacyjna",
-          "price": "od 6 000 zł",
+          "price": "od €3 500",
           "features": ["Do 15 stron", "Unikalny design", "System zarządzania", "Wielojęzyczność", "Integracje", "Wsparcie 3 miesiące"]
         },
         "ecommerce": {
           "name": "Sklep internetowy",
-          "price": "od 10 000 zł",
+          "price": "od €8 000",
           "features": ["Katalog produktów", "Koszyk i płatności", "System zamówień", "Integracja z CRM", "Analityka", "Wsparcie 6 miesięcy"]
         }
       }
@@ -245,6 +245,23 @@
         "whatsapp": "WhatsApp Business",
         "viber": "Viber",
         "website": "Czat na stronie"
+      },
+      "packages": {
+        "basic": {
+          "name": "Basic Bot",
+          "price": "od €2 500",
+          "features": ["FAQ / scenariusze", "Telegram lub strona", "Podstawowa analityka", "Wsparcie przy uruchomieniu"]
+        },
+        "business": {
+          "name": "Business Bot",
+          "price": "od €5 500",
+          "features": ["Formularze leadów", "Integracja z CRM", "Multi-kanał (Telegram/WhatsApp/strona)", "Panel administracyjny"]
+        },
+        "ai": {
+          "name": "AI Bot",
+          "price": "od €12 000",
+          "features": ["LLM + baza wiedzy (RAG)", "Zaawansowana analityka", "Integracje API", "Bezpieczeństwo i role"]
+        }
       }
     },
     "ai_solutions": {
@@ -337,6 +354,23 @@
           { "title": "Generowanie treści", "description": "Tworzenie opisów produktów, emaili i raportów w sekundy" },
           { "title": "Wsparcie decyzji", "description": "Analiza danych i rekomendacje oparte na AI" }
         ]
+      },
+      "packages": {
+        "discovery": {
+          "name": "AI Discovery",
+          "price": "od €3 000",
+          "features": ["Audyt procesów", "Identyfikacja możliwości AI", "Raport z rekomendacjami", "Plan wdrożenia"]
+        },
+        "assistant": {
+          "name": "AI Assistant MVP",
+          "price": "od €9 000",
+          "features": ["Integracja ChatGPT/Claude", "Baza wiedzy firmy", "Interfejs web", "Szkolenie zespołu"]
+        },
+        "automation": {
+          "name": "AI Automation Suite",
+          "price": "od €18 000",
+          "features": ["Automatyzacja wielu procesów", "Integracje z systemami", "Dashboard analityczny", "Wsparcie 6 miesięcy"]
+        }
       }
     },
     "consulting": {
@@ -400,7 +434,7 @@
           },
           {
             "question": "Ile kosztuje konsultacja?",
-            "answer": "Ceny zależą od zakresu projektu. Jednorazowy audyt IT zaczyna się od 3 000 zł. Kompleksowa strategia transformacji cyfrowej od 8 000 zł. Pierwsza rozmowa konsultacyjna jest bezpłatna — podczas niej ustalimy dokładny zakres i wycenę."
+            "answer": "Ceny zależą od zakresu projektu. Jednorazowy audyt IT zaczyna się od €2 500. Kompleksowa strategia transformacji cyfrowej od €6 000. Pierwsza rozmowa konsultacyjna jest bezpłatna — podczas niej ustalimy dokładny zakres i wycenę."
           },
           {
             "question": "Czy wdrażacie też swoje rekomendacje?",
@@ -415,6 +449,23 @@
             "answer": "Pracujemy z firmami z różnych branż — e-commerce, usługi, produkcja, finanse. Nasze podejście jest uniwersalne: analizujemy procesy biznesowe i dopasowujemy technologię do konkretnych potrzeb."
           }
         ]
+      },
+      "packages": {
+        "audit": {
+          "name": "Audyt IT",
+          "price": "od €2 500",
+          "features": ["Analiza infrastruktury", "Przegląd procesów", "Raport z rekomendacjami", "Plan działania"]
+        },
+        "strategy": {
+          "name": "Strategia cyfrowa",
+          "price": "od €6 000",
+          "features": ["Pełna analiza firmy", "Roadmapa transformacji", "Dobór technologii", "Estymacja kosztów"]
+        },
+        "advisory": {
+          "name": "Doradztwo",
+          "price": "€95/godz.",
+          "features": ["Konsultacje na żądanie", "Wsparcie decyzji", "Review rozwiązań", "Nadzór nad projektami"]
+        }
       },
       "cta_section": {
         "title": "Zacznij od bezpłatnej rozmowy",
@@ -499,6 +550,23 @@
           }
         ]
       },
+      "packages": {
+        "mvp": {
+          "name": "MVP",
+          "price": "od €18 000",
+          "features": ["iOS + Android", "Podstawowe funkcje", "Design UX/UI", "Publikacja w sklepach"]
+        },
+        "standard": {
+          "name": "Standard App",
+          "price": "od €35 000",
+          "features": ["Rozbudowana funkcjonalność", "Backend + API", "Integracje", "Wsparcie 3 miesiące"]
+        },
+        "enterprise": {
+          "name": "Enterprise",
+          "price": "od €70 000",
+          "features": ["Złożone integracje", "Offline mode", "Role i uprawnienia", "Wsparcie 12 miesięcy"]
+        }
+      },
       "cta_section": {
         "title": "Gotowy omówić swój pomysł na aplikację?",
         "description": "Bezpłatna konsultacja, podczas której omówimy Twój pomysł, doradzimy technologię i przedstawimy wstępną wycenę. Bez zobowiązań.",
@@ -574,13 +642,30 @@
           },
           {
             "question": "Ile kosztuje hosting w chmurze?",
-            "answer": "Koszty zależą od skali i wymagań. Mały startup może zacząć od 50-200 zł miesięcznie, średnia aplikacja to 500-2000 zł, duże projekty kilka tysięcy. Podczas audytu przedstawimy szczegółową estymację kosztów."
+            "answer": "Koszty zależą od skali i wymagań. Mały startup może zacząć od €15-50 miesięcznie, średnia aplikacja to €150-500, duże projekty kilka tysięcy. Podczas audytu przedstawimy szczegółową estymację kosztów."
           },
           {
             "question": "Czy zapewniacie monitoring 24/7?",
             "answer": "Tak, konfigurujemy monitoring z alertami i możemy zapewnić reakcję 24/7 w ramach pakietów wsparcia. Monitoring obejmuje metryki aplikacji, infrastruktury, koszty i bezpieczeństwo."
           }
         ]
+      },
+      "packages": {
+        "starter": {
+          "name": "CI/CD Setup",
+          "price": "od €3 500",
+          "features": ["Pipeline CI/CD", "Konteneryzacja", "Podstawowa infrastruktura", "Dokumentacja"]
+        },
+        "migration": {
+          "name": "Cloud Migration",
+          "price": "od €12 000",
+          "features": ["Audyt infrastruktury", "Plan migracji", "Migracja danych", "Optymalizacja kosztów"]
+        },
+        "managed": {
+          "name": "Managed DevOps",
+          "price": "od €1 500/mies.",
+          "features": ["Monitoring 24/7", "Automatyczne skalowanie", "Bezpieczeństwo", "Optymalizacja kosztów"]
+        }
       },
       "cta_section": {
         "title": "Gotowy na stabilną infrastrukturę?",
@@ -871,7 +956,7 @@
     "error": "Coś poszło nie tak",
     "try_again": "Spróbuj ponownie",
     "home": "Strona główna",
-    "currency": "zł"
+    "currency": "€"
   },
   "error": {
     "title": "Coś poszło nie tak",
